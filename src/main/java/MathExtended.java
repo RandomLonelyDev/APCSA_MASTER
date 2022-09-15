@@ -1,8 +1,10 @@
 import java.lang.Math;
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.List;
 
-public class Algebra_Lib_v1 {
+public class MathExtended {
+    //Algebra and trig
     public static double pythagHypotenuse(double s1, double s2){
         return Math.sqrt(Math.pow(Math.abs(s1),2)+Math.pow(Math.abs(s2),2));
     }
@@ -32,12 +34,20 @@ public class Algebra_Lib_v1 {
             default -> -1;
         };
     }
-    public static double sideFromAngle(double s1, double a1, String sct){
-        return switch (sct){
-            case "sin" -> Double.valueOf(String.format("%.2f"));
-            case "cos" -> Double.valueOf(String.format("%.2f"));
-            case "tan" -> Double.valueOf(String.format("%.2f"));
-            default -> -1;
-        };
+    //Input related functions
+    public static double fractionFromString(String fraction){
+        double out = 0;
+        if(fraction.contains("/")){
+            double pt1 = Integer.parseInt(fraction.substring(0,fraction.indexOf("/")));
+            double pt2 = Integer.parseInt(fraction.substring(fraction.indexOf("/")+1));
+            out = pt1/pt2;
+        } else {
+            try {
+                out = Double.parseDouble(fraction);
+            } catch(NumberFormatException e){
+                throw new InputMismatchException("");
+            }
+        }
+        return out;
     }
 }
