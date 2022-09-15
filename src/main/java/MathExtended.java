@@ -26,14 +26,6 @@ public class MathExtended {
         }
         return out;
     }
-    public static double angleFromSides(double s1, double s2, String sct){
-        return switch (sct) {
-            case "sin" -> Double.valueOf(String.format("%.2f", Math.toDegrees(Math.asin(s1 / s2))));
-            case "cos" -> Double.valueOf(String.format("%.2f", Math.toDegrees(Math.acos(s1 / s2))));
-            case "tan" -> Double.valueOf(String.format("%.2f", Math.toDegrees(Math.atan(s1 / s2))));
-            default -> -1;
-        };
-    }
     //Input related functions
     public static double fractionFromString(String fraction){
         double out = 0;
