@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Added angleFromSides function to lib, improved sorting">
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="removed angleFromSides(), added string based fraction parser">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Flip_Or_Roll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algebra_Lib_v1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MathExtended.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ALv1_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ALv1_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MathExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MathExtended.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Program_Points.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program_Points.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -89,7 +92,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663256807833</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="removed angleFromSides(), added string based fraction parser">
+      <created>1663261662226</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663261662226</updated>
+    </task>
+    <task id="LOCAL-00005" summary="removed angleFromSides(), added string based fraction parser">
+      <created>1663261704032</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663261704032</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +123,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed Project =)" />
     <MESSAGE value="Added angleFromSides function to lib, improved sorting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added angleFromSides function to lib, improved sorting" />
+    <MESSAGE value="removed angleFromSides(), added string based fraction parser" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed angleFromSides(), added string based fraction parser" />
   </component>
 </project>
