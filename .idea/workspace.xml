@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="removed angleFromSides(), added string based fraction parser">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Flip_Or_Roll.java" afterDir="false" />
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Added Flip_Or_Roll.  Updated some libs">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Program_Perfect_Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Program_Quadrant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ALv1_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ALv1_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MathExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MathExtended.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Points.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program_Points.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Change.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program_Change.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663261704032</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Flip_Or_Roll.  Updated some libs">
+      <created>1663357332846</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663357332846</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +130,7 @@
     <MESSAGE value="Fixed Project =)" />
     <MESSAGE value="Added angleFromSides function to lib, improved sorting" />
     <MESSAGE value="removed angleFromSides(), added string based fraction parser" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed angleFromSides(), added string based fraction parser" />
+    <MESSAGE value="Added Flip_Or_Roll.  Updated some libs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Flip_Or_Roll.  Updated some libs" />
   </component>
 </project>
