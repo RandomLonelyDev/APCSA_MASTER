@@ -1,3 +1,5 @@
+import libs.MathExtended;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.lang.Math;

@@ -1,3 +1,5 @@
+package libs;
+
 import java.lang.Math;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
@@ -31,7 +33,7 @@ public class MathExtended {
             return out;
         }
     }
-    class io {
+    public class io {
         //Input related functions
         public static double fractionFromString(String fraction) {
             double out = 0;
