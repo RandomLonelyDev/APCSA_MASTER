@@ -4,10 +4,11 @@ import java.lang.Math;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
+import java.util.Random;
 
 public class MathExtended {
     //Algebra and trig
-    class math {
+    public class math {
         public static double pythagHypotenuse(double s1, double s2) {
             return Math.sqrt(Math.pow(Math.abs(s1), 2) + Math.pow(Math.abs(s2), 2));
         }
@@ -50,7 +51,16 @@ public class MathExtended {
             }
             return out;
         }
-        public static String fractionFromDecimal(){return "";}
-        public static String pointSlopeForm(){return "";}
+        public static String fractionFromDecimal(double decimal){
+            String sDecimal = String.format("%f",decimal);
+            double multiplier = sDecimal.substring(sDecimal.indexOf('.')+1).length();
+            return String.format("%f",multiplier);
+        }
+    }
+    public class misc{
+        public static int randomInt(int bottomBoundInclusive, int topBoundExclusive){
+            Random random = new Random();
+            return random.ints(bottomBoundInclusive,topBoundExclusive).findFirst().getAsInt();
+        }
     }
 }
