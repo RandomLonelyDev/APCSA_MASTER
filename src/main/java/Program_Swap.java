@@ -1,4 +1,4 @@
-public class Paws {
+public class Program_Swap {
     public static void main(String[] args){
         int x = 2;
         int y = 3;

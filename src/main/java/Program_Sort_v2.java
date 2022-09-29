@@ -18,7 +18,7 @@ public class Program_Sort_v2 {
                 System.out.print("The integers from least to greatest are: ");
                 String output = "";
                 for(int a = 0; a < max; a++){
-                    output += (ints[a] + ", ");
+                    output += (String.format("%d, ",ints[a]));
                 }
                 System.out.print(output.substring(0,output.length()-2) + ".\n\n");
             }catch(InputMismatchException e){
