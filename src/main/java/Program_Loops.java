@@ -1,4 +1,4 @@
-public class Loops {
+public class Program_Loops {
     public static void main(String[] args){
         Loop_1.runWhile();
         Loop_1.runFor();
