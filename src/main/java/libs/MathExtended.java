@@ -12,15 +12,12 @@ public class MathExtended {
         public static double pythagHypotenuse(double s1, double s2) {
             return Math.sqrt(Math.pow(Math.abs(s1), 2) + Math.pow(Math.abs(s2), 2));
         }
-
         public static double pythagSides(double side, double hypot) {
             return Math.sqrt(Math.pow(Math.abs(hypot), 2) - Math.pow(Math.abs(side), 2));
         }
-
-        public static String equationFromPoints(double x1, double y1, double x2, double y2) {
+        public static String linearEquationFromPoints(double x1, double y1, double x2, double y2) {
             return String.format("Equation is y = %.1fx + %.1f", ((y2 - y1) / (x2 - x1)), (y1 - (((y2 - y1) / (x2 - x1)) * x1)));
         }
-
         public static List quadraticFormula(double a, double b, double c) {
             double radicand = (b * b) - (4 * a * c);
             List out = new ArrayList<>();
@@ -52,9 +49,19 @@ public class MathExtended {
             return out;
         }
         public static String fractionFromDecimal(double decimal){
-            String sDecimal = String.format("%f",decimal);
-            double multiplier = sDecimal.substring(sDecimal.indexOf('.')+1).length();
-            return String.format("%f",multiplier);
+            String sDecimal = Double.toString(decimal);
+            double multiplier = Math.pow(10,sDecimal.substring(sDecimal.indexOf('.')+1).length());
+            double numerator = Math.round(decimal*multiplier);
+            do{
+                if(Math.round(numerator % 5) == 0){
+                    numerator /= 5;
+                    multiplier /= 5;
+                } else if(Math.round(numerator % 2) == 0){
+                    numerator /= 2;
+                    multiplier /= 2;
+                }
+            } while(Math.round(numerator % 5) == 0 || Math.round(numerator % 2) == 0);
+            return String.format("%d/%d",Math.round(numerator),Math.round(multiplier));
         }
     }
     public class misc{

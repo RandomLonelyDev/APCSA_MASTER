@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Fixed a fuck-up in Program_Sort">
-      <change afterPath="$PROJECT_DIR$/src/main/java/loops_intro/Loops.java" afterDir="false" />
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Fixed Program_Loops">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Sort_v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program_Sort_v2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lib_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lib_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/MathExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libs/MathExtended.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +140,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664461769947</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added Program_Loops.&#10;Renamed Paws to Program_Swap.">
+      <created>1664465929328</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664465929328</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fixed Program_Loops">
+      <created>1664466057477</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664466057477</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,6 +177,8 @@
     <MESSAGE value="Added Program_Maximum and Program_Minimum." />
     <MESSAGE value="Added Paws.java, and randomInt method to MathExtended lib." />
     <MESSAGE value="Fixed a fuck-up in Program_Sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed a fuck-up in Program_Sort" />
+    <MESSAGE value="Added Program_Loops.&#10;Renamed Paws to Program_Swap." />
+    <MESSAGE value="Fixed Program_Loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Program_Loops" />
   </component>
 </project>
