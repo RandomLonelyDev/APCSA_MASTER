@@ -11,6 +11,7 @@ public class Program_Sort {
                 ints[1] = scanline.nextInt();
                 System.out.print("Enter the third integer: ");
                 ints[2] = scanline.nextInt();
+                Arrays.sort(ints);
                 System.out.format("The numbers from least to greatest are: %s %s %s \n\n",ints[0],ints[1],ints[2]);
             }catch(InputMismatchException e){
                 System.out.print("\nError! Please enter a valid integer.  Press 'Enter' to continue.");

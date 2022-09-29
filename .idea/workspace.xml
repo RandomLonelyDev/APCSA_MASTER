@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Added Program_Maximum and Program_Minimum.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Paws.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ALv1_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lib_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Flip_Or_Roll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Flip_Or_Roll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/libs/MathExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libs/MathExtended.java" afterDir="false" />
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Added Paws.java, and randomInt method to MathExtended lib.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program_Sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663957130319</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added Paws.java, and randomInt method to MathExtended lib.">
+      <created>1664461585539</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664461585539</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +151,7 @@
     <MESSAGE value="Added Flip_Or_Roll.  Updated some libs" />
     <MESSAGE value="Added Perfect_Square and Program_Quadrant." />
     <MESSAGE value="Added Program_Maximum and Program_Minimum." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Program_Maximum and Program_Minimum." />
+    <MESSAGE value="Added Paws.java, and randomInt method to MathExtended lib." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Paws.java, and randomInt method to MathExtended lib." />
   </component>
 </project>
