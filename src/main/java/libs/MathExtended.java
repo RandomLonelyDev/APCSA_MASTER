@@ -33,7 +33,7 @@ public class MathExtended {
     }
     public class io {
         //Input related functions
-        public static double fractionFromString(String fraction) {
+        public static double decimalFromString(String fraction) {
             double out = 0;
             if (fraction.contains("/")) {
                 double pt1 = Integer.parseInt(fraction.substring(0, fraction.indexOf("/")));
@@ -64,10 +64,22 @@ public class MathExtended {
             return String.format("%d/%d",Math.round(numerator),Math.round(multiplier));
         }
     }
-    public class misc{
+    public class rand{
         public static int randomInt(int bottomBoundInclusive, int topBoundExclusive){
             Random random = new Random();
             return random.ints(bottomBoundInclusive,topBoundExclusive).findFirst().getAsInt();
+        }
+        public static boolean randomBoolean(){
+            Random random = new Random();
+            return random.nextBoolean();
+        }
+        public static double randomDouble(double bottomBoundInclusive, double topBoundExclusive){
+            Random random = new Random();
+            return random.doubles(bottomBoundInclusive,topBoundExclusive).findFirst().getAsDouble();
+        }
+        public static char randomChar(){
+            Random random = new Random();
+            return (char)random.ints(33,125).findFirst().getAsInt();
         }
     }
 }

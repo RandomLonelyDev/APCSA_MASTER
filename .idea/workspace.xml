@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Fixed Program_Loops">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Finished fractionFromDecimal.  The nightmare is over.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Overflower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Program_Loops_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Lib_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lib_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Points.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program_Points.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/libs/MathExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libs/MathExtended.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664466057477</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Finished fractionFromDecimal.  The nightmare is over.">
+      <created>1664474743452</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664474743452</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +189,7 @@
     <MESSAGE value="Fixed a fuck-up in Program_Sort" />
     <MESSAGE value="Added Program_Loops.&#10;Renamed Paws to Program_Swap." />
     <MESSAGE value="Fixed Program_Loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Program_Loops" />
+    <MESSAGE value="Finished fractionFromDecimal.  The nightmare is over." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished fractionFromDecimal.  The nightmare is over." />
   </component>
 </project>

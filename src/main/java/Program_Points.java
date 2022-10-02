@@ -10,13 +10,13 @@ public class Program_Points {
         while(true) {
             try {
                 System.out.print("First point.\nEnter x coordinate.");
-                fx = MathExtended.io.fractionFromString(scanline.nextLine());
+                fx = MathExtended.io.decimalFromString(scanline.nextLine());
                 System.out.print("Enter y coordinate.");
-                fy = MathExtended.io.fractionFromString(scanline.nextLine());
+                fy = MathExtended.io.decimalFromString(scanline.nextLine());
                 System.out.print("\nSecond point.\nEnter x coordinate.");
-                sx = MathExtended.io.fractionFromString(scanline.nextLine());
+                sx = MathExtended.io.decimalFromString(scanline.nextLine());
                 System.out.print("Enter y coordinate.");
-                sy = MathExtended.io.fractionFromString(scanline.nextLine());
+                sy = MathExtended.io.decimalFromString(scanline.nextLine());
                 xdiff = sx - fx;
                 ydiff = sy - fy;
                 slope = ydiff / xdiff;
