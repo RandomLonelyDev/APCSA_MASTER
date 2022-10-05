@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Added to arraylib">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Program_Guessing_Game_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/libs/StringArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Finished arraylib, added strigarraylib, added anf finished prgm guessing game 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Program_Grades.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Flip_Or_Roll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program_Flip_Or_Roll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Guessing_Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program_Guessing_Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lib_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lib_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Loops_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program_Loops_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/libs/ArraysExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libs/ArraysExtended.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Guessing_Game_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program_Guessing_Game_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664898678332</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Finished arraylib, added strigarraylib, added anf finished prgm guessing game 2">
+      <created>1664981091587</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664981091587</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +217,7 @@
     <MESSAGE value="Added Overflower and Program_Loops_1" />
     <MESSAGE value="Added and finished Array lib" />
     <MESSAGE value="Added to arraylib" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added to arraylib" />
+    <MESSAGE value="Finished arraylib, added strigarraylib, added anf finished prgm guessing game 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished arraylib, added strigarraylib, added anf finished prgm guessing game 2" />
   </component>
 </project>
