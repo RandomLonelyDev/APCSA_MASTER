@@ -1,5 +1,5 @@
 import java.util.*;
-public class Guessing_Game {
+public class Program_Guessing_Game {
     public static void main(String[] args){
         int max,ntg,guess;
         Scanner scanline = new Scanner(System.in);

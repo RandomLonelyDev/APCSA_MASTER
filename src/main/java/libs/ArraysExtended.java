@@ -3,18 +3,234 @@ import java.lang.reflect.Array;
 import java.util.*;
 
 public class ArraysExtended {
-    public static <T> String printArray(T[] input) { //TODO: overload
-        StringBuilder out = new StringBuilder("{");
+    public static <T> void printArray(T[] input) {
+        String out = "";
         for (T element : input) {
-            out.append(String.format("%s, ", element));
+            out += String.format("%s, ", element);
         }
-        return out.substring(0, out.length() - 2) + "}";
+        System.out.format("\n{%s}\n",out.substring(0, out.length() - 2));
     }
 
-    public static <T> Object[] removeElement(T[] input, int index) { //TODO: overload
+    public static void printArray(boolean[] input) {
+        String out = "";
+        for (boolean element : input) {
+            out += String.format("%s, ", element);
+        }
+        System.out.format("\n{%s}\n",out.substring(0, out.length() - 2));
+    }
+
+    public static void printArray(char[] input) {
+        String out = "";
+        for (char element : input) {
+            out += String.format("%s, ", element);
+        }
+        System.out.format("\n{%s}\n",out.substring(0, out.length() - 2));
+    }
+
+    public static void printArray(String[] input) {
+        String out = "";
+        for (String element : input) {
+            out += String.format("%s, ", element);
+        }
+        System.out.format("\n{%s}\n",out.substring(0, out.length() - 2));
+    }
+
+    public static void printArray(double[] input) {
+        String out = "";
+        for (double element : input) {
+            out += String.format("%s, ", element);
+        }
+        System.out.format("\n{%s}\n",out.substring(0, out.length() - 2));
+    }
+
+    public static void printArray(float[] input) {
+        String out = "";
+        for (float element : input) {
+            out += String.format("%s, ", element);
+        }
+        System.out.format("\n{%s}\n",out.substring(0, out.length() - 2));
+    }
+
+    public static void printArray(byte[] input) {
+        String out = "";
+        for (byte element : input) {
+            out += String.format("%s, ", element);
+        }
+        System.out.format("\n{%s}\n",out.substring(0, out.length() - 2));
+    }
+
+    public static void printArray(short[] input) {
+        String out = "";
+        for (short element : input) {
+            out += String.format("%s, ", element);
+        }
+        System.out.format("\n{%s}\n",out.substring(0, out.length() - 2));
+    }
+
+    public static void printArray(int[] input) {
+        String out = "";
+        for (int element : input) {
+            out += String.format("%s, ", element);
+        }
+        System.out.format("\n{%s}\n",out.substring(0, out.length() - 2));
+    }
+
+    public static void printArray(long[] input) {
+        String out = "";
+        for (long element : input) {
+            out += String.format("%s, ", element);
+        }
+        System.out.format("\n{%s}\n",out.substring(0, out.length() - 2));
+    }
+
+    public static <T> Object[] removeElement(T[] input, int index) {
         ArrayList<T> asAList = new ArrayList<>(Arrays.asList(input));
         asAList.remove(index);
         return asAList.toArray();
+    }
+
+    public static boolean[] removeElement(boolean[] input, int index){
+        ArrayList asAList = new ArrayList<>();
+        for(boolean element : input){
+            asAList.add(element);
+        }
+        asAList.remove(index);
+        Object[] subOutArray = asAList.toArray();
+        boolean[] out = new boolean[subOutArray.length];
+        for(int i = 0; i < subOutArray.length; i++){
+            if(subOutArray[i] instanceof Boolean){
+                out[i] = (boolean) subOutArray[i];
+            }
+        }
+        return out;
+    }
+
+    public static char[] removeElement(char[] input, int index){
+        ArrayList asAList = new ArrayList<>();
+        for(char element : input){
+            asAList.add(element);
+        }
+        asAList.remove(index);
+        Object[] subOutArray = asAList.toArray();
+        char[] out = new char[subOutArray.length];
+        for(int i = 0; i < subOutArray.length; i++){
+            if(subOutArray[i] instanceof Character){
+                out[i] = (char) subOutArray[i];
+            }
+        }
+        return out;
+    }
+
+    public static String[] removeElement(String[] input, int index){
+        ArrayList asAList = new ArrayList<>();
+        for(String element : input){
+            asAList.add(element);
+        }
+        asAList.remove(index);
+        Object[] subOutArray = asAList.toArray();
+        String[] out = new String[subOutArray.length];
+        for(int i = 0; i < subOutArray.length; i++){
+            if(subOutArray[i] instanceof String){
+                out[i] = (String) subOutArray[i];
+            }
+        }
+        return out;
+    }
+
+    public static float[] removeElement(float[] input, int index){
+        ArrayList asAList = new ArrayList<>();
+        for(float element : input){
+            asAList.add(element);
+        }
+        asAList.remove(index);
+        Object[] subOutArray = asAList.toArray();
+        float[] out = new float[subOutArray.length];
+        for(int i = 0; i < subOutArray.length; i++){
+            if(subOutArray[i] instanceof Float){
+                out[i] = (float) subOutArray[i];
+            }
+        }
+        return out;
+    }
+
+    public static double[] removeElement(double[] input, int index){
+        ArrayList asAList = new ArrayList<>();
+        for(double element : input){
+            asAList.add(element);
+        }
+        asAList.remove(index);
+        Object[] subOutArray = asAList.toArray();
+        double[] out = new double[subOutArray.length];
+        for(int i = 0; i < subOutArray.length; i++){
+            if(subOutArray[i] instanceof Double){
+                out[i] = (double) subOutArray[i];
+            }
+        }
+        return out;
+    }
+
+    public static byte[] removeElement(byte[] input, int index){
+        ArrayList asAList = new ArrayList<>();
+        for(byte element : input){
+            asAList.add(element);
+        }
+        asAList.remove(index);
+        Object[] subOutArray = asAList.toArray();
+        byte[] out = new byte[subOutArray.length];
+        for(int i = 0; i < subOutArray.length; i++){
+            if(subOutArray[i] instanceof Byte){
+                out[i] = (byte) subOutArray[i];
+            }
+        }
+        return out;
+    }
+
+    public static short[] removeElement(short[] input, int index){
+        ArrayList asAList = new ArrayList<>();
+        for(short element : input){
+            asAList.add(element);
+        }
+        asAList.remove(index);
+        Object[] subOutArray = asAList.toArray();
+        short[] out = new short[subOutArray.length];
+        for(int i = 0; i < subOutArray.length; i++){
+            if(subOutArray[i] instanceof Short){
+                out[i] = (short) subOutArray[i];
+            }
+        }
+        return out;
+    }
+
+    public static int[] removeElement(int[] input, int index){
+        ArrayList asAList = new ArrayList<>();
+        for(int element : input){
+            asAList.add(element);
+        }
+        asAList.remove(index);
+        Object[] subOutArray = asAList.toArray();
+        int[] out = new int[subOutArray.length];
+        for(int i = 0; i < subOutArray.length; i++){
+            if(subOutArray[i] instanceof Integer){
+                out[i] = (int) subOutArray[i];
+            }
+        }
+        return out;
+    }
+
+    public static long[] removeElement(long[] input, int index){
+        ArrayList asAList = new ArrayList<>();
+        for(long element : input){
+            asAList.add(element);
+        }
+        asAList.remove(index);
+        Object[] subOutArray = asAList.toArray();
+        long[] out = new long[subOutArray.length];
+        for(int i = 0; i < subOutArray.length; i++){
+            if(subOutArray[i] instanceof Long){
+                out[i] = (long) subOutArray[i];
+            }
+        }
+        return out;
     }
 
     public static <T> Object[] append(T[] input, T data) {

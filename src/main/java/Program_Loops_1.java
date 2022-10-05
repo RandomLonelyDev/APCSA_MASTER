@@ -1,10 +1,10 @@
 import java.util.*;
 public class Program_Loops_1 {
-    /*public static void main(String[] args){
+    public static void main(String[] args){
         for(int i = 0; i < 11; i++){
             System.out.println(i);
         }
-    }*/
+    }
     /*public static void main(String[] args){
         for(int i = 10; i > 0; i--){
             System.out.println(i);
@@ -76,16 +76,25 @@ public class Program_Loops_1 {
             }
         }
     }*/
-    public static void main(String[] args){
+    /*public static void main(String[] args){
         Scanner scanline = new Scanner(System.in);
         while(true){
             try{
-
+                System.out.print("How many numbers? ");
+                int[] nums = new int[scanline.nextInt()];
+                int sum = 0;
+                for (int i = 0; i < nums.length; i++) {
+                    System.out.print("Enter a number: ");
+                    nums[i] = scanline.nextInt();
+                    sum += nums[i];
+                }
+                System.out.format("The sum is %d\n", sum);
+                System.out.format("The avg is %.1f\n\n", sum/(double)nums.length);
             } catch(InputMismatchException e){
                 System.out.print("\nError.  Please enter a valid number.  Press'Enter' to coninue.");
                 scanline.nextLine();
                 scanline.nextLine();
             }
         }
-    }
+    }*/
 }

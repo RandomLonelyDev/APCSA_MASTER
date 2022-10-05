@@ -1,5 +1,5 @@
 import java.util.*;
-public class Flip_Or_Roll {
+public class Program_Flip_Or_Roll {
     public static void main(String[] args) {
         Scanner scanline = new Scanner(System.in);
         Random rand = new Random();
