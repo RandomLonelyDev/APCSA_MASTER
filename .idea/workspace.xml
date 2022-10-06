@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Added Program_Grades">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Program_Stars.java" afterDir="false" />
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Added Program_Stars">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -194,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664986082445</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added Program_Stars">
+      <created>1665014864316</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1665014864316</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +231,7 @@
     <MESSAGE value="Added to arraylib" />
     <MESSAGE value="Finished arraylib, added strigarraylib, added anf finished prgm guessing game 2" />
     <MESSAGE value="Added Program_Grades" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Program_Grades" />
+    <MESSAGE value="Added Program_Stars" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Program_Stars" />
   </component>
 </project>
