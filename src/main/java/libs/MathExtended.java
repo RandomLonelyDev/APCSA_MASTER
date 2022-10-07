@@ -1,7 +1,6 @@
 package libs;
 
 import java.util.*;
-
 public class MathExtended {
     public static double pythagHypotenuse(double s1, double s2) {
         return Math.sqrt(Math.pow(Math.abs(s1), 2) + Math.pow(Math.abs(s2), 2));
