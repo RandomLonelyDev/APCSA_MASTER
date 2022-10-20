@@ -4,20 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Added some files to test search algorithm  TODO: Fix sort by age">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Loops_Challenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/Level.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="added string.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Program_Strings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Wildfire_java_test/Gender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Wildfire_java_test/Level.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Wildfire_java_test/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lib_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lib_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Points.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program_Points.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Wildfire_java_test/Wildfire_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Wildfire_java_test/Wildfire_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Wildfire_java_test/display_algorithm_v0_1.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Wildfire_java_test/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Wildfire_java_test/user.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Wildfire_java_test/enums/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Wildfire_java_test/enums/Level.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Wildfire_java_test/enums/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/ArraysExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Wildfire_java_test/libs/ArraysExtended.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/MathExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Wildfire_java_test/libs/MathExtended.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/StringArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Wildfire_java_test/libs/StringArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/randgen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/randgen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665157519301</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="i honestly dont know">
+      <created>1666202247232</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1666202247232</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,6 +269,7 @@
     <MESSAGE value="Added Program_Stars" />
     <MESSAGE value="Finished Program_Stars" />
     <MESSAGE value="Added some files to test search algorithm  TODO: Fix sort by age" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some files to test search algorithm  TODO: Fix sort by age" />
+    <MESSAGE value="i honestly dont know" />
+    <option name="LAST_COMMIT_MESSAGE" value="i honestly dont know" />
   </component>
 </project>

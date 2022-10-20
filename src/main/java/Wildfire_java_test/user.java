@@ -1,7 +1,7 @@
 package Wildfire_java_test;
 
-import enums.*;
-import libs.*;
+import Wildfire_java_test.enums.*;
+import Wildfire_java_test.libs.*;
 import java.util.*;
 
 public class user {

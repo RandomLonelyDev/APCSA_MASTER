@@ -1,6 +1,5 @@
-import libs.MathExtended;
-import libs.ArraysExtended;
-import libs.StringArray;
+import Wildfire_java_test.libs.ArraysExtended;
+import Wildfire_java_test.libs.StringArray;
 public class Lib_Test {
     public static void main(String[] args){
         String[] in2 = {"a","b","c","d","e","f"};

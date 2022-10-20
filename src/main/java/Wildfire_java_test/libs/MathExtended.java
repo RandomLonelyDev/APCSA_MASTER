@@ -1,4 +1,4 @@
-package libs;
+package Wildfire_java_test.libs;
 
 import java.util.*;
 public class MathExtended {

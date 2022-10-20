@@ -1,6 +1,4 @@
-package libs;
-
-import java.util.Objects;
+package Wildfire_java_test.libs;
 
 public class StringArray {
     private StringBuilder sBValue = new StringBuilder("");

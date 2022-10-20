@@ -1,13 +1,9 @@
 package Wildfire_java_test;
 
-import libs.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.*;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.Map;
 
 
 class Wildfire_Test {

@@ -1,5 +1,4 @@
-package libs;
-import java.lang.reflect.Array;
+package Wildfire_java_test.libs;
 import java.util.*;
 
 public class ArraysExtended {

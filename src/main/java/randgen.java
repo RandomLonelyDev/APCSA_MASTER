@@ -1,5 +1,5 @@
 import java.util.*;
-import libs.MathExtended;
+import Wildfire_java_test.libs.MathExtended;
 public class randgen {
     public static void main(String[] args){
         ArrayList<String> sections = new ArrayList<>(Arrays.asList("Flutes", "Clarinets", "Saxophones", "Mellophones", "Trumpets", "Low Brass", "Low Reeds", "Percussion", "Guard"));
