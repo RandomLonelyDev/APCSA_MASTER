@@ -1,3 +1,5 @@
+package personal_tests.libs;
+
 import personal_tests.libs.ArraysExtended;
 import personal_tests.libs.StringArray;
 public class Lib_Test {
