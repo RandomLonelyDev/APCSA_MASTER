@@ -33,12 +33,12 @@ public class Wildfire_Test {
                 sortByLoc.add(serverdatum);
             }
         }
-        for(user serverdatum : serverdata){
+        for(user serverdatum : serverdata){ //fourth if us, add international people
             if(relativeto.getLoc() != Location.ITL && serverdatum.getLoc() == Location.ITL){
                 sortByLoc.add(serverdatum);
             }
         }
-        for(user surverdatum : serverdata){
+        for(user surverdatum : serverdata){ //finally, if ITL, add those in us
             if(relativeto.getLoc() == Location.ITL && surverdatum.getLoc() != Location.ITL){
                 sortByLoc.add(surverdatum);
             }
@@ -98,10 +98,11 @@ ERROR PROLLY HERE????
 v
 */
 
+        //For mults of index: n>1 = higher pref | 0<n<1 = lower pref | n<0 = inverted pref | n == 0 = ignored pref
         for (user serverdatum : serverdata) {
             double avg = 0;
-            avg += sortByLoc.indexOf(serverdatum);
-            avg += sortByGender.indexOf(serverdatum);
+            avg += sortByLoc.indexOf(serverdatum)*2;
+            avg += sortByGender.indexOf(serverdatum)*2;
             avg += sortByAge.indexOf(serverdatum);
             avg += sortByIntrest.indexOf(serverdatum);
             avg /= 4;
