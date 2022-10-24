@@ -1,4 +1,4 @@
-package Wildfire_java_test.enums;
+package personal_tests.enums;
 
 public enum Location {
     W,S,MW,EC,ITL

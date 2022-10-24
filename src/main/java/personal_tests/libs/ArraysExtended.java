@@ -1,4 +1,4 @@
-package Wildfire_java_test.libs;
+package personal_tests.libs;
 import java.util.*;
 
 public class ArraysExtended {

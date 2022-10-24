@@ -1,5 +1,5 @@
-import Wildfire_java_test.libs.ArraysExtended;
-import Wildfire_java_test.libs.StringArray;
+import personal_tests.libs.ArraysExtended;
+import personal_tests.libs.StringArray;
 public class Lib_Test {
     public static void main(String[] args){
         String[] in2 = {"a","b","c","d","e","f"};

@@ -1,7 +1,7 @@
-package Wildfire_java_test;
+package personal_tests;
 
-import Wildfire_java_test.enums.*;
-import Wildfire_java_test.libs.*;
+import personal_tests.enums.*;
+import personal_tests.libs.*;
 import java.util.*;
 
 public class user {
@@ -64,7 +64,7 @@ public class user {
     }
 
     public static user testUser(){
-        user out = new user("INTERNALTESTS",Gender.MALE,Level.FRIENDS,16);
+        user out = new user("INTERNALTESTS",Gender.MALE,Level.LONG_TERM,16);
         out.setLoc(Location.MW);
         out.setLtm(Gender.FEMALE);
         out.setAttraction(Gender.FEMALE);

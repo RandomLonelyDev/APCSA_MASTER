@@ -1,4 +1,4 @@
-import Wildfire_java_test.libs.MathExtended;
+import personal_tests.libs.MathExtended;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

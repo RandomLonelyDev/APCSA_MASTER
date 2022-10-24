@@ -1,4 +1,4 @@
-package Wildfire_java_test.libs;
+package personal_tests.libs;
 
 public class StringArray {
     private StringBuilder sBValue = new StringBuilder("");
