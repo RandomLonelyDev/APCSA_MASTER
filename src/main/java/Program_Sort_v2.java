@@ -9,7 +9,7 @@ public class Program_Sort_v2 {
             try{
                 System.out.print("Enter the max number of integers: ");
                 int max = scanline.nextInt();
-                int ints[] = new int[max];
+                int[] ints = new int[max];
                 for(int i = 0; i < max; i++){
                     System.out.format("Enter integer number %d: ",i+1);
                     ints[i] = scanline.nextInt();

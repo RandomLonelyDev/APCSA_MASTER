@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="ticket closed on algorithm, everything works now" />
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="we do a little refactoring">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Array_Programs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/DatabaseFiller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Sort_v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program_Sort_v2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program_Strings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/Wildfire_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/Wildfire_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/enums/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/enums/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/libs/ArraysExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/libs/ArraysExtended.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/user.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -242,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666614000504</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="we do a little refactoring">
+      <created>1666630271833</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1666630271833</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,6 +297,7 @@
     <MESSAGE value="added string.java" />
     <MESSAGE value="did some refactoring, upgraded algorithm, id'd problem as avg pos detection code, lines 101-109" />
     <MESSAGE value="ticket closed on algorithm, everything works now" />
-    <option name="LAST_COMMIT_MESSAGE" value="ticket closed on algorithm, everything works now" />
+    <MESSAGE value="we do a little refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="we do a little refactoring" />
   </component>
 </project>

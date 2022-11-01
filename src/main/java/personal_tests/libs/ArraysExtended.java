@@ -7,7 +7,7 @@ public class ArraysExtended {
         for (T element : input) {
             out += String.format("%s, ", element);
         }
-        System.out.format("\n{%s}\n",out.substring(0, out.length() - 2));
+        System.out.format("{%s}",out.substring(0, out.length() - 2));
     }
 
     public static void printArray(boolean[] input) {
@@ -15,7 +15,7 @@ public class ArraysExtended {
         for (boolean element : input) {
             out += String.format("%s, ", element);
         }
-        System.out.format("\n{%s}\n",out.substring(0, out.length() - 2));
+        System.out.format("{%s}",out.substring(0, out.length() - 2));
     }
 
     public static void printArray(char[] input) {
@@ -23,7 +23,7 @@ public class ArraysExtended {
         for (char element : input) {
             out += String.format("%s, ", element);
         }
-        System.out.format("\n{%s}\n",out.substring(0, out.length() - 2));
+        System.out.format("{%s}",out.substring(0, out.length() - 2));
     }
 
     public static void printArray(String[] input) {
@@ -31,7 +31,7 @@ public class ArraysExtended {
         for (String element : input) {
             out += String.format("%s, ", element);
         }
-        System.out.format("\n{%s}\n",out.substring(0, out.length() - 2));
+        System.out.format("{%s}",out.substring(0, out.length() - 2));
     }
 
     public static void printArray(double[] input) {
@@ -39,7 +39,7 @@ public class ArraysExtended {
         for (double element : input) {
             out += String.format("%s, ", element);
         }
-        System.out.format("\n{%s}\n",out.substring(0, out.length() - 2));
+        System.out.format("{%s}",out.substring(0, out.length() - 2));
     }
 
     public static void printArray(float[] input) {
@@ -47,7 +47,7 @@ public class ArraysExtended {
         for (float element : input) {
             out += String.format("%s, ", element);
         }
-        System.out.format("\n{%s}\n",out.substring(0, out.length() - 2));
+        System.out.format("{%s}",out.substring(0, out.length() - 2));
     }
 
     public static void printArray(byte[] input) {
@@ -55,7 +55,7 @@ public class ArraysExtended {
         for (byte element : input) {
             out += String.format("%s, ", element);
         }
-        System.out.format("\n{%s}\n",out.substring(0, out.length() - 2));
+        System.out.format("{%s}",out.substring(0, out.length() - 2));
     }
 
     public static void printArray(short[] input) {
@@ -63,7 +63,7 @@ public class ArraysExtended {
         for (short element : input) {
             out += String.format("%s, ", element);
         }
-        System.out.format("\n{%s}\n",out.substring(0, out.length() - 2));
+        System.out.format("{%s}",out.substring(0, out.length() - 2));
     }
 
     public static void printArray(int[] input) {
@@ -71,7 +71,7 @@ public class ArraysExtended {
         for (int element : input) {
             out += String.format("%s, ", element);
         }
-        System.out.format("\n{%s}\n",out.substring(0, out.length() - 2));
+        System.out.format("{%s}",out.substring(0, out.length() - 2));
     }
 
     public static void printArray(long[] input) {
@@ -79,7 +79,7 @@ public class ArraysExtended {
         for (long element : input) {
             out += String.format("%s, ", element);
         }
-        System.out.format("\n{%s}\n",out.substring(0, out.length() - 2));
+        System.out.format("{%s}",out.substring(0, out.length() - 2));
     }
 
     public static <T> Object[] removeElement(T[] input, int index) {

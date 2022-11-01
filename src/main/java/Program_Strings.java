@@ -55,6 +55,7 @@ public class Program_Strings {
                 break;
             }
             guesses++;
+            System.out.format("\nINCORRECT PASSWORD. GUESSES REMAINING: %d\n",3-guesses);
         }while(guesses < MAX_GUESSES);
         System.out.print(guesses == MAX_GUESSES ?"ACCESS DENIED":"Welcome");
     }

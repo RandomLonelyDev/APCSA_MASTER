@@ -81,13 +81,12 @@ public class user {
         return out;
     }
     public static String userToJson(user in){
-        return String.format("{\"username\":\"%s\",\"accountdescription\":\"%s\",\"gender\":\"%s\",\"age\":%s,\"location\":\"%s\",\"ltm\":\"%s\",\"attractedTo\":\"%s\",\"rLvl\":\"%s\",\"pfpCode\":%s}",in.name,in.accoutdescrpition,in.gender,in.age,in.loc,in.ltm,in.attraction,in.lvl,in.pfp);
+        return String.format("{\"username\":\"%s\",\"accountdescription\":\"%s\",\"gender\":\"%s\",\"age\":%s,\"location\":\"%s\",\"ltm\":\"%s\",\"attractedTo\":\"%s\",\"rLvl\":\"%s\",\"pfpCode\":\"PFP2\"}",in.name,in.accoutdescrpition,in.gender,in.age,in.loc,in.ltm,in.attraction,in.lvl);
     }
     public static user jsonToUser(String json){
         String[] params = json.substring(1,json.length()-1).split(",");
         Map<String,String> collatedParams = new LinkedHashMap<>();
         for(String element : params){
-            System.out.println(element);
             collatedParams.put(element.substring(1,element.indexOf(":")-1),element.substring(element.indexOf(":")+1).contains("\"")?element.substring(element.indexOf(":")+1).replace("\"",""):element.substring(element.indexOf(":")+1));
         }
         user out = new user(collatedParams.get("username"),Gender.valueOf(collatedParams.get("gender")),Level.valueOf(collatedParams.get("rLvl")), Integer.parseInt(collatedParams.get("age")));
