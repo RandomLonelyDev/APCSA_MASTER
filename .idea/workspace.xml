@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="added Array_Programs.  finished through 5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="added Array_Programs.  finished all 10.">
       <change beforePath="$PROJECT_DIR$/src/main/java/Array_Programs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Array_Programs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -259,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667306886146</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="added Array_Programs.  finished all 10.">
+      <created>1667412393672</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1667412393672</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,7 +280,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed Project =)" />
     <MESSAGE value="Added angleFromSides function to lib, improved sorting" />
     <MESSAGE value="removed angleFromSides(), added string based fraction parser" />
     <MESSAGE value="Added Flip_Or_Roll.  Updated some libs" />
@@ -299,6 +304,7 @@
     <MESSAGE value="ticket closed on algorithm, everything works now" />
     <MESSAGE value="we do a little refactoring" />
     <MESSAGE value="added Array_Programs.  finished through 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Array_Programs.  finished through 5" />
+    <MESSAGE value="added Array_Programs.  finished all 10." />
+    <option name="LAST_COMMIT_MESSAGE" value="added Array_Programs.  finished all 10." />
   </component>
 </project>

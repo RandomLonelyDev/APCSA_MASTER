@@ -6,8 +6,8 @@ public class Array_Programs {
     /*public static void main(String[] args) { //Pgrm 1
         int[] intArray = randomArray(10,11);
         double sum = 0;
-        for(int i = 0; i < intArray.length; i++){
-            sum += intArray[i];
+        for (int j : intArray) {
+            sum += j;
         }
         printArray(intArray);
         System.out.format("Sum: %d, Average: %.1f", (int)sum, sum/intArray.length);
@@ -15,8 +15,8 @@ public class Array_Programs {
     /*public static void main(String[] args) { //Pgrm 2
         int[] intArray = randomArray(10,11);
         int max = intArray[0];
-        for (int i = 0; i < intArray.length; i++) {
-            max = intArray[i] > max ? intArray[i] : max;
+        for (int j : intArray) {
+            max = Math.max(j, max);
         }
         printArray(intArray);
         System.out.format("Max: %d",max);
@@ -33,9 +33,9 @@ public class Array_Programs {
     /*public static void main(String[] args) { //Pgrm 4
         int[] intArray = randomArray(10,11);
         int oddSum = 0, evenSum = 0;
-        for(int i = 0; i < intArray.length; i++){
-            oddSum += intArray[i]%2 == 1 ? intArray[i] : 0;
-            evenSum += intArray[i]%2 == 0 ? intArray[i] : 0;
+        for(int inte : intArray){
+            oddSum += inte%2 == 1 ? inte : 0;
+            evenSum += inte%2 == 0 ? inte : 0;
         }
         printArray(intArray);
         System.out.format("Even Sum: %d, Odd Sum: %d",evenSum,oddSum);
@@ -115,7 +115,7 @@ public class Array_Programs {
         System.out.print(median(intArray));
         //System.out.print(findMultipleOfThree(intArray));
     }*/
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Scanner scanline = new Scanner(System.in);
         System.out.print("Enter a String: ");
         String word = scanline.nextLine();
@@ -124,8 +124,8 @@ public class Array_Programs {
             System.out.format("\nThe word %s %s a palindrome.",word,  ?"is":"isn't");
         } else {
             System.out.format("\nThe word %s %s a palindrome.",word, ?"is":"isn't");
-        }*/
-    }
+        }
+    }*/
     public static int[] randomArray(int length, int maxExclusive){ //"givin" array
         int[] out = new int[length];
         for(int i = 0; i < length; i++){
