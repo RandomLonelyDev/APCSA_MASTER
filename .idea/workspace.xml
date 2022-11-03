@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="COURSEGRADES.  THAT'S IT. DO NOT QUESTION THE ALMIGHTY CLI.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CourseGrades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CourseGrades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/libs/Lib_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/libs/Lib_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/libs/StringArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/libs/StringArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/libs/MathExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/libs/MathExtended.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667443322719</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="COURSEGRADES.  THAT'S IT. DO NOT QUESTION THE ALMIGHTY CLI.">
+      <created>1667498712683</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1667498712683</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

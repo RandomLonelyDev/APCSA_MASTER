@@ -69,4 +69,42 @@ public class MathExtended {
         Random random = new Random();
         return (char)random.ints(33,125).findFirst().getAsInt();
     }
+    public static boolean intToBoolean(int in){
+        return in == 1;
+    }
+    public static int boolToInt(boolean in){
+        return in?1:0;
+    }
+    static class cNum extends Number{
+        private double whole;
+        private double iCoeff;
+        cNum(double whole, double iCoeff){
+            this.whole = whole;
+            this.iCoeff = iCoeff;
+        }
+
+        @Override
+        public int intValue() {
+            return (int)whole;
+        }
+
+        @Override
+        public long longValue() {
+            return (long)whole;
+        }
+
+        @Override
+        public float floatValue() {
+            return (float)whole;
+        }
+
+        @Override
+        public double doubleValue() {
+            return whole;
+        }
+
+        String getCNum(){
+            return String.format("%f%s%fi",whole,iCoeff > 0?"+":"",iCoeff);
+        }
+    }
 }
