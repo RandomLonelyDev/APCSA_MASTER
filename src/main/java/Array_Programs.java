@@ -115,17 +115,35 @@ public class Array_Programs {
         System.out.print(median(intArray));
         //System.out.print(findMultipleOfThree(intArray));
     }*/
-    /*public static void main(String[] args) {
+    /*public static void main(String[] args) { //the palindrom one
         Scanner scanline = new Scanner(System.in);
         System.out.print("Enter a String: ");
-        String word = scanline.nextLine();
-        System.out.format("Word: %s.  Is odd? %s.  Half not including center: %s.  Center: %s",word, word.length()%2 == 1,word.substring(0,word.length()/2));
-        /*if(word.length()%2 == 0){
-            System.out.format("\nThe word %s %s a palindrome.",word,  ?"is":"isn't");
-        } else {
-            System.out.format("\nThe word %s %s a palindrome.",word, ?"is":"isn't");
+        String preWord = scanline.nextLine().toLowerCase();
+        String[] preWordSegments = preWord.split(" ");
+        String word = "";
+        for (String element: preWordSegments) {
+            word += element;
         }
+        StringBuilder invertedSecondHalf = new StringBuilder();
+        int modifer = word.length()%2 == 0?0:1;
+        String substring = word.substring(word.length() / 2 + modifer);
+        for(int i = substring.length()-1; i >= 0; i--){
+            invertedSecondHalf.append(substring.charAt(i));
+        }
+        System.out.format("\nThe word '%s' %s a palindrome.",preWord, word.substring(0,word.length()/2).equals(invertedSecondHalf.toString()) ?"is":"isn't");
     }*/
+
+    public static void main(String[] args) { //Reverse array no loops
+        int[] val = {0,1,2,3};
+        System.out.format("Original Array: %s, %s, %s, %s",val[0],val[1],val[2],val[3]);
+        int temp = val[0];
+        val[0] = val[3];
+        val[3] = temp;
+        temp = val[2];
+        val[2] = val[1];
+        val[1] = temp;
+        System.out.format("\nReversed Array: %s, %s, %s, %s",val[0],val[1],val[2],val[3]);
+    }
     public static int[] randomArray(int length, int maxExclusive){ //"givin" array
         int[] out = new int[length];
         for(int i = 0; i < length; i++){
@@ -157,3 +175,4 @@ public class Array_Programs {
         return index;
     }
 }
+

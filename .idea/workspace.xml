@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="added Array_Programs.  finished all 10.">
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="updated core 10.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CourseGrades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Array_Programs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Array_Programs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +57,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Wildfire_java_test" />
       <recent name="" />
@@ -265,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667412393672</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="updated core 10.">
+      <created>1667412783312</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1667412783312</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,7 +292,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added angleFromSides function to lib, improved sorting" />
     <MESSAGE value="removed angleFromSides(), added string based fraction parser" />
     <MESSAGE value="Added Flip_Or_Roll.  Updated some libs" />
     <MESSAGE value="Added Perfect_Square and Program_Quadrant." />
@@ -305,6 +316,7 @@
     <MESSAGE value="we do a little refactoring" />
     <MESSAGE value="added Array_Programs.  finished through 5" />
     <MESSAGE value="added Array_Programs.  finished all 10." />
-    <option name="LAST_COMMIT_MESSAGE" value="added Array_Programs.  finished all 10." />
+    <MESSAGE value="updated core 10." />
+    <option name="LAST_COMMIT_MESSAGE" value="updated core 10." />
   </component>
 </project>
