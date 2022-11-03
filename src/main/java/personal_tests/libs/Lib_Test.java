@@ -8,7 +8,6 @@ public class Lib_Test {
         Integer[] in1 = {1,2,3,4,5,6,7,8,9};
         String in3 = "//{false,true,true}\\\\";
         StringArray arr = new StringArray(in1);
-        ArraysExtended.printArray(StringArray.parseBoolean(in3));
     }
 }
 

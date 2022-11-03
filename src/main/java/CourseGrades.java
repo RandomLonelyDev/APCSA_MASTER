@@ -7,13 +7,6 @@ public class CourseGrades {
         boolean exit = false;
         Scanner scanline = new Scanner(System.in);
         GradeBook gradeBook = new GradeBook();
-        ArrayList<Double> testArr = new ArrayList<>();
-        {
-            testArr.add(78.2);
-            testArr.add(56.3);
-            testArr.add(100.0);
-        }
-        gradeBook.addStudent("emily", testArr);
         System.out.print("+--------------------+\n| Powerschool CLI v1 |\n+--------------------+");
         while (!exit) {
             System.out.print("\n\nWhat would you like to do?\n[1] Add student(s)\n[2] View student grades\n[3] Update student\n[4] View student\n[5] View test averages\n[6] Exit\n>>: ");
@@ -31,12 +24,16 @@ public class CourseGrades {
                         break;
                     case 2:
                         System.out.print("\n\n\n--------------------\n");
-                        for(Map.Entry<String,ArrayList<Double>> entry : gradeBook.getEntrySet()){
-                            System.out.format("%s: ",entry.getKey());
-                            ArraysExtended.printArray(entry.getValue().toArray());
-                            System.out.print("\n");
+                        try {
+                            for (Map.Entry<String, ArrayList<Double>> entry : gradeBook.getEntrySet()) {
+                                System.out.format("%s: ", entry.getKey());
+                                ArraysExtended.printArray(entry.getValue().toArray());
+                                System.out.print("\n");
+                            }
+                        } catch (StringIndexOutOfBoundsException e) {
+                            System.out.print("This student has no grades.");
                         }
-                        System.out.print("--------------------");
+                        System.out.print("\n--------------------");
                         scanline.nextLine();
                         break;
                     case 3:
@@ -71,8 +68,8 @@ public class CourseGrades {
                     default:
                         throw new NumberFormatException("");
                 }
-            } catch (NumberFormatException e) {
-                System.out.print("\n///////\n/ERROR/\n///////\n");
+            } catch (NumberFormatException | StringIndexOutOfBoundsException e) {
+                System.out.print("\n/////////\n//ERROR//\n/////////\n");
             }
         }
         System.out.print("\n+------------------------------+\n| Thank you for using this CLI |\n+------------------------------+");

@@ -3,8 +3,65 @@ package personal_tests.libs;
 public class StringArray {
     private StringBuilder sBValue = new StringBuilder("");
     private String sValue = "";
-    public <T> StringArray(T[] input){ //TODO: overload
+    public String getValue(){
+        return sValue;
+    }
+    public <T> StringArray(T[] input){
         for (T element : input) {
+            this.sBValue.append(String.format("%s,",element));
+        }
+        sValue = String.format("//{%s}\\\\", sBValue.substring(0,sBValue.length()-1));
+    }
+    public StringArray (boolean[] input){
+        for (boolean element : input) {
+            this.sBValue.append(String.format("%s,",element));
+        }
+        sValue = String.format("//{%s}\\\\", sBValue.substring(0,sBValue.length()-1));
+    }
+    public StringArray (char[] input){
+        for (char element : input) {
+            this.sBValue.append(String.format("%s,",element));
+        }
+        sValue = String.format("//{%s}\\\\", sBValue.substring(0,sBValue.length()-1));
+    }
+    public StringArray (String[] input){
+        for (String element : input) {
+            this.sBValue.append(String.format("%s,",element));
+        }
+        sValue = String.format("//{%s}\\\\", sBValue.substring(0,sBValue.length()-1));
+    }
+    public StringArray (float[] input){
+        for (float element : input) {
+            this.sBValue.append(String.format("%s,",element));
+        }
+        sValue = String.format("//{%s}\\\\", sBValue.substring(0,sBValue.length()-1));
+    }
+    public StringArray (double[] input){
+        for (double element : input) {
+            this.sBValue.append(String.format("%s,",element));
+        }
+        sValue = String.format("//{%s}\\\\", sBValue.substring(0,sBValue.length()-1));
+    }
+    public StringArray (byte[] input){
+        for (byte element : input) {
+            this.sBValue.append(String.format("%s,",element));
+        }
+        sValue = String.format("//{%s}\\\\", sBValue.substring(0,sBValue.length()-1));
+    }
+    public StringArray (short[] input){
+        for (short element : input) {
+            this.sBValue.append(String.format("%s,",element));
+        }
+        sValue = String.format("//{%s}\\\\", sBValue.substring(0,sBValue.length()-1));
+    }
+    public StringArray (int[] input){
+        for (int element : input) {
+            this.sBValue.append(String.format("%s,",element));
+        }
+        sValue = String.format("//{%s}\\\\", sBValue.substring(0,sBValue.length()-1));
+    }
+    public StringArray (long[] input){
+        for (long element : input) {
             this.sBValue.append(String.format("%s,",element));
         }
         sValue = String.format("//{%s}\\\\", sBValue.substring(0,sBValue.length()-1));
@@ -14,19 +71,16 @@ public class StringArray {
         String out = "";
         for(int i = 0; i < in.length(); i++){
             chars[i] = in.charAt(i);
-            out += ((Math.random()*2.0)>1)?Character.toString(chars[i]).toUpperCase():chars[i];
+            out += ((Math.random()*2.0)>=1)?Character.toString(chars[i]).toUpperCase():chars[i];
         }
         return out;
     }
 
-    public String getValue(){
-        return sValue;
-    }
-
-    public static boolean[] parseBoolean(String in) throws RuntimeException{ //TODO: overload
+    public static boolean[] parseBoolean(StringArray in) throws RuntimeException{
+        String input = in.getValue();
         boolean[] out;
-        if(in.startsWith("//{") && in.endsWith("}\\\\")){
-            String ofIntrest = in.substring(in.indexOf("{")+1,in.indexOf("}"));
+        if(input.startsWith("//{") && input.endsWith("}\\\\")){
+            String ofIntrest = input.substring(input.indexOf("{")+1,input.indexOf("}"));
             String[] strings = ofIntrest.split(",");
             out = new boolean[strings.length];
             for (int i = 0; i < strings.length; i++) {
@@ -44,10 +98,11 @@ public class StringArray {
         }
     }
 
-    public static char[] parseChar(String in) throws RuntimeException{ //TODO: overload
+    public static char[] parseChar(StringArray in) throws RuntimeException{
+        String input = in.getValue();
         char[] out;
-        if(in.startsWith("//{") && in.endsWith("}\\\\")){
-            String ofIntrest = in.substring(in.indexOf("{")+1,in.indexOf("}"));
+        if(input.startsWith("//{") && input.endsWith("}\\\\")){
+            String ofIntrest = input.substring(input.indexOf("{")+1,input.indexOf("}"));
             String[] strings = ofIntrest.split(",");
             out = new char[strings.length];
             for (int i = 0; i < strings.length; i++) {
@@ -59,10 +114,11 @@ public class StringArray {
         }
     }
 
-    public static String[] parseString(String in) throws RuntimeException{ //TODO: overload
+    public static String[] parseString(StringArray in) throws RuntimeException{
+        String input = in.getValue();
         String[] out;
-        if(in.startsWith("//{") && in.endsWith("}\\\\")){
-            String ofIntrest = in.substring(in.indexOf("{")+1,in.indexOf("}"));
+        if(input.startsWith("//{") && input.endsWith("}\\\\")){
+            String ofIntrest = input.substring(input.indexOf("{")+1,input.indexOf("}"));
             String[] strings = ofIntrest.split(",");
             out = new String[strings.length];
             for (int i = 0; i < strings.length; i++) {
