@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Updated MathExtended">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Program_TimeConverter.java" afterDir="false" />
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Added TimeConverter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CourseGrades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CourseGrades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/libs/MathExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/libs/MathExtended.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_TimeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program_TimeConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667499734614</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Added TimeConverter">
+      <created>1668000115673</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1668000115673</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,7 +319,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Perfect_Square and Program_Quadrant." />
     <MESSAGE value="Added Program_Maximum and Program_Minimum." />
     <MESSAGE value="Added Paws.java, and randomInt method to MathExtended lib." />
     <MESSAGE value="Fixed a fuck-up in Program_Sort" />
@@ -339,6 +343,7 @@
     <MESSAGE value="updated core 10." />
     <MESSAGE value="COURSEGRADES.  THAT'S IT. DO NOT QUESTION THE ALMIGHTY CLI." />
     <MESSAGE value="Updated MathExtended" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated MathExtended" />
+    <MESSAGE value="Added TimeConverter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added TimeConverter" />
   </component>
 </project>
