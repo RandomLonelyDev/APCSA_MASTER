@@ -76,8 +76,8 @@ public class MathExtended {
         return in?1:0;
     }
     static class cNum extends Number{
-        private double whole;
-        private double iCoeff;
+        private final double whole;
+        private final double iCoeff;
         cNum(double whole, double iCoeff){
             this.whole = whole;
             this.iCoeff = iCoeff;

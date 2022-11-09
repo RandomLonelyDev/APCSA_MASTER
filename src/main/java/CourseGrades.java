@@ -57,6 +57,7 @@ public class CourseGrades {
                             System.out.print("\n/////////////////////////////\n/THIS STUDENT DOES NOT EXIST/\n/////////////////////////////\n");
                         }
                         scanline.nextLine();
+                        break;
                     case 5:
                         System.out.print("\n\n\n--------------------\nTest ID: ");
                         int tID = Integer.parseInt(scanline.nextLine());

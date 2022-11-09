@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="COURSEGRADES.  THAT'S IT. DO NOT QUESTION THE ALMIGHTY CLI.">
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Updated MathExtended">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Program_TimeConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CourseGrades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CourseGrades.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/libs/MathExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/libs/MathExtended.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -290,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667498712683</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Updated MathExtended">
+      <created>1667499734614</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1667499734614</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,7 +314,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Flip_Or_Roll.  Updated some libs" />
     <MESSAGE value="Added Perfect_Square and Program_Quadrant." />
     <MESSAGE value="Added Program_Maximum and Program_Minimum." />
     <MESSAGE value="Added Paws.java, and randomInt method to MathExtended lib." />
@@ -330,6 +338,7 @@
     <MESSAGE value="added Array_Programs.  finished all 10." />
     <MESSAGE value="updated core 10." />
     <MESSAGE value="COURSEGRADES.  THAT'S IT. DO NOT QUESTION THE ALMIGHTY CLI." />
-    <option name="LAST_COMMIT_MESSAGE" value="COURSEGRADES.  THAT'S IT. DO NOT QUESTION THE ALMIGHTY CLI." />
+    <MESSAGE value="Updated MathExtended" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated MathExtended" />
   </component>
 </project>
