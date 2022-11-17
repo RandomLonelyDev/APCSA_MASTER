@@ -1,16 +1,14 @@
-package personal_tests;
+package personal_tests.wildfire;
 
-import personal_tests.enums.Gender;
-import personal_tests.enums.Level;
-import personal_tests.enums.Location;
+import personal_tests.wildfire.enums.Gender;
+import personal_tests.wildfire.enums.Level;
+import personal_tests.wildfire.enums.Location;
 import personal_tests.libs.MathExtended;
 
-import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.*;
-import java.util.ArrayList;
 
 public class DatabaseFiller {
     public static void main(String[] args) {

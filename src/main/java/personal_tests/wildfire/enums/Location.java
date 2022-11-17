@@ -1,4 +1,4 @@
-package personal_tests.enums;
+package personal_tests.wildfire.enums;
 
 public enum Location {
     WC,S,MW,EC,ITL

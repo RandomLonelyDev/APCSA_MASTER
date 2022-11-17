@@ -1,4 +1,4 @@
-package personal_tests;
+package personal_tests.wildfire;
 
 import personal_tests.libs.ArraysExtended;
 

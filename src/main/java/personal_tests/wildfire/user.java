@@ -1,6 +1,6 @@
-package personal_tests;
+package personal_tests.wildfire;
 
-import personal_tests.enums.*;
+import personal_tests.wildfire.enums.*;
 import personal_tests.libs.*;
 import java.util.*;
 
