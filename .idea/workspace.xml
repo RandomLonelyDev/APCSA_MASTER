@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Updated TimeConverter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArrayList_Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Program_Pets.java" afterDir="false" />
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="added program pets">
+      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/cbc/Testing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/DatabaseFiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/DatabaseFiller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/Wildfire_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/Wildfire_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/enums/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/enums/Gender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/enums/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/enums/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/enums/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/enums/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/user.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayList_Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayList_Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Pets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program_Pets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +80,13 @@
       <updated>1663006809842</updated>
       <workItem from="1668487748300" duration="21000" />
       <workItem from="1668625468373" duration="1973000" />
-      <workItem from="1668649470520" duration="4289000" />
+      <workItem from="1668649470520" duration="4416000" />
+      <workItem from="1668663019631" duration="39000" />
+      <workItem from="1668689818462" duration="1459000" />
+      <workItem from="1668691995743" duration="60000" />
+      <workItem from="1668693814845" duration="487000" />
+      <workItem from="1668711279733" duration="1101000" />
+      <workItem from="1668712544699" duration="428000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Project =)">
       <created>1663007809665</created>
@@ -325,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668020678736</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="added program pets">
+      <created>1668653883656</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1668653883656</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +351,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Paws.java, and randomInt method to MathExtended lib." />
     <MESSAGE value="Fixed a fuck-up in Program_Sort" />
     <MESSAGE value="Added Program_Loops.&#10;Renamed Paws to Program_Swap." />
     <MESSAGE value="Fixed Program_Loops" />
@@ -368,6 +375,7 @@
     <MESSAGE value="Updated MathExtended" />
     <MESSAGE value="Added TimeConverter" />
     <MESSAGE value="Updated TimeConverter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated TimeConverter" />
+    <MESSAGE value="added program pets" />
+    <option name="LAST_COMMIT_MESSAGE" value="added program pets" />
   </component>
 </project>
