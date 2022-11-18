@@ -13,11 +13,7 @@ public class Program_Pets {
         System.out.print("\n" + names);
     }
     public static void removeName1(ArrayList<String> in){in.removeIf(c -> c.trim().toLowerCase().startsWith("r"));}
-    public static void removeName2(ArrayList<String> in, String name){in.removeIf(c -> c.equals(name));}
-    public static void addName(ArrayList<String> in, String name){
-        ArrayList<Integer> pPos = new ArrayList<>();
-        in.forEach(c -> {if(c.trim().toLowerCase().endsWith("p"))pPos.add(in.indexOf(c));});
-        pPos.forEach(c -> in.add(c+1,name));
-    }
+    public static void removeName2(ArrayList<String> in, String name){in.removeIf(c -> c.trim().equalsIgnoreCase(name.trim()));}
+    public static void addName(ArrayList<String> in, String name){for(int i = 0; i < in.size(); i++)if(in.get(i).trim().toLowerCase().endsWith("p"))in.add(i+1,name);}
     public static void setName(ArrayList<String> in){for(int i = 0; i < 3; i++)if(in.get(i).equals("Coop"))in.set(i,"Boscoe");}
 }

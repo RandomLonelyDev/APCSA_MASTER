@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="added program pets">
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/cbc/Testing.java" afterDir="false" />
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="a lil updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayList_Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayList_Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Program_Pets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program_Pets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +84,10 @@
       <workItem from="1668691995743" duration="60000" />
       <workItem from="1668693814845" duration="487000" />
       <workItem from="1668711279733" duration="1101000" />
-      <workItem from="1668712544699" duration="428000" />
+      <workItem from="1668712544699" duration="1306000" />
+      <workItem from="1668722651916" duration="51000" />
+      <workItem from="1668797616977" duration="38000" />
+      <workItem from="1668797884821" duration="708000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Project =)">
       <created>1663007809665</created>
@@ -333,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668653883656</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="a lil updates">
+      <created>1668713178833</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1668713178833</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +359,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed a fuck-up in Program_Sort" />
     <MESSAGE value="Added Program_Loops.&#10;Renamed Paws to Program_Swap." />
     <MESSAGE value="Fixed Program_Loops" />
     <MESSAGE value="Finished fractionFromDecimal.  The nightmare is over." />
@@ -376,6 +383,7 @@
     <MESSAGE value="Added TimeConverter" />
     <MESSAGE value="Updated TimeConverter" />
     <MESSAGE value="added program pets" />
-    <option name="LAST_COMMIT_MESSAGE" value="added program pets" />
+    <MESSAGE value="a lil updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="a lil updates" />
   </component>
 </project>
