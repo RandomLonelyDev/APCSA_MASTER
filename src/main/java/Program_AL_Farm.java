@@ -2,7 +2,7 @@ import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 public class Program_AL_Farm {
     public static void main(String[] args) {
-        ArrayList<String> animalList = new ArrayList<>(List.of("pig","cat","sheep","chicken","dog","horse","cow","goat","rat","duck"));
+        ArrayList<String> animalList = new ArrayList<>(Arrays.asList("pig","cat","sheep","chicken","dog","horse","cow","goat","rat","duck"));
         System.out.println("Method 1: " + filterByLength(animalList,3));
         System.out.println("Method 2: " + filterbyStartingString(animalList,"c"));
         System.out.println("Method 3: " + hasConsecutiveVowels(animalList));
@@ -21,7 +21,7 @@ public class Program_AL_Farm {
     }
     public static int hasConsecutiveVowels(ArrayList<String> in){
         AtomicInteger count = new AtomicInteger();
-        ArrayList<Character> vowels = new ArrayList<>(List.of('a','e','i','o','u'));
+        ArrayList<Character> vowels = new ArrayList<>(Arrays.asList('a','e','i','o','u'));
         in.forEach(c -> {for (int i = 0; i < c.length()-1; i++) if(vowels.contains(c.toLowerCase().charAt(i)) && vowels.contains(c.toLowerCase().charAt(i+1)))count.getAndIncrement();});
         return count.get();
     }
