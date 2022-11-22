@@ -1,18 +1,13 @@
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
-
 public class Program_AL_Farm {
     public static void main(String[] args) {
         ArrayList<String> animalList = new ArrayList<>(List.of("pig","cat","sheep","chicken","dog","horse","cow","goat","rat","duck"));
-        System.out.println(filterByLength(animalList,3));
-        System.out.println(filterbyStartingString(animalList,"c"));
-        System.out.println(hasConsecutiveVowels(animalList));
-        addDonkeyForLength(animalList,5);
-        System.out.println(removeByMinLength(animalList,5));
-        System.out.println(animalList);
+        System.out.println("Method 1: " + filterByLength(animalList,3));
+        System.out.println("Method 2: " + filterbyStartingString(animalList,"c"));
+        System.out.println("Method 3: " + hasConsecutiveVowels(animalList));
+        System.out.println("Method 4: " + removeByMinLength(animalList,5));
         replaceByEnd(animalList,"at","mouse");
-        System.out.println(animalList);
-
     }
     public static int filterByLength(ArrayList<String> list, int length){
         AtomicInteger count = new AtomicInteger();
@@ -32,18 +27,13 @@ public class Program_AL_Farm {
     }
     public static int removeByMinLength(ArrayList<String> in, int length){
         AtomicInteger count = new AtomicInteger();
-        in.forEach(c -> {if(c.trim().length() >= length){
-            count.getAndIncrement();
-        }});
+        in.forEach(c -> {if(c.trim().length() >= length){count.getAndIncrement();}});
         in.removeIf(f -> f.length() >= length);
+        System.out.println("Method 4 New List: " + in);
         return count.get();
-
-    }
-    public static void addDonkeyForLength(ArrayList<String> in, int length){
-        for(int i = 0; i < in.size(); i++)if(in.get(i).trim().length() == length)in.add(i+1,"donkey");
-        System.out.println(in);
     }
     public static void replaceByEnd(ArrayList<String> in, String end, String replacement){
         for(int i = 0; i < in.size(); i++)if(in.get(i).endsWith(end))in.set(i,replacement);
+        System.out.println("Method 5 New List: " + in);
     }
 }

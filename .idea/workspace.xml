@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="a lil updates">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Program_AL_Farm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Finished AL Farm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_AL_Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program_AL_Farm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +93,9 @@
       <workItem from="1669056908967" duration="2670000" />
       <workItem from="1669061854229" duration="5000" />
       <workItem from="1669124221378" duration="790000" />
+      <workItem from="1669125645838" duration="219000" />
+      <workItem from="1669125877303" duration="9000" />
+      <workItem from="1669143168938" duration="340000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Project =)">
       <created>1663007809665</created>
@@ -354,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668798606691</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Finished AL Farm">
+      <created>1669125809237</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1669125809237</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +381,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Program_Loops.&#10;Renamed Paws to Program_Swap." />
     <MESSAGE value="Fixed Program_Loops" />
     <MESSAGE value="Finished fractionFromDecimal.  The nightmare is over." />
     <MESSAGE value="Added Overflower and Program_Loops_1" />
@@ -397,6 +405,7 @@
     <MESSAGE value="Updated TimeConverter" />
     <MESSAGE value="added program pets" />
     <MESSAGE value="a lil updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="a lil updates" />
+    <MESSAGE value="Finished AL Farm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished AL Farm" />
   </component>
 </project>
