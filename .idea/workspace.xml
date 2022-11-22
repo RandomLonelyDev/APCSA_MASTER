@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Finished AL Farm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_AL_Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program_AL_Farm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +94,8 @@
       <workItem from="1669124221378" duration="790000" />
       <workItem from="1669125645838" duration="219000" />
       <workItem from="1669125877303" duration="9000" />
-      <workItem from="1669143168938" duration="340000" />
+      <workItem from="1669143168938" duration="539000" />
+      <workItem from="1669143734669" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Project =)">
       <created>1663007809665</created>
@@ -363,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669125809237</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Finished AL Farm">
+      <created>1669143635114</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1669143635114</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
