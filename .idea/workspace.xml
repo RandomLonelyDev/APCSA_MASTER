@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="made al farm codehs compliant">
-      <change afterPath="$PROJECT_DIR$/lib/jxmpp-core-0.6.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jxmpp-jid-0.6.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jxmpp-util-cache-0.6.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/minidns-core-0.3.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/smack-core-4.4.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/smack-extensions-4.3.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/smack-im-4.3.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/xpp3-1.1.4c.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/SmackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/DatabaseFiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/DatabaseFiller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/Wildfire_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/Wildfire_Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="added a cmdline im for xmpp" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +123,7 @@
       <workItem from="1670599123305" duration="1625000" />
       <workItem from="1670603158780" duration="1233000" />
       <workItem from="1670608161946" duration="122000" />
-      <workItem from="1670611960558" duration="2203000" />
+      <workItem from="1670611960558" duration="2516000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Project =)">
       <created>1663007809665</created>
@@ -425,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669144782444</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="added a cmdline im for xmpp">
+      <created>1670614386403</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1670614386403</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished fractionFromDecimal.  The nightmare is over." />
     <MESSAGE value="Added Overflower and Program_Loops_1" />
     <MESSAGE value="Added and finished Array lib" />
     <MESSAGE value="Added to arraylib" />
@@ -468,6 +461,7 @@
     <MESSAGE value="a lil updates" />
     <MESSAGE value="Finished AL Farm" />
     <MESSAGE value="made al farm codehs compliant" />
-    <option name="LAST_COMMIT_MESSAGE" value="made al farm codehs compliant" />
+    <MESSAGE value="added a cmdline im for xmpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a cmdline im for xmpp" />
   </component>
 </project>

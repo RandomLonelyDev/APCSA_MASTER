@@ -31,16 +31,18 @@ public class SmackTest {
         connection.sendStanza(new Presence(Presence.Type.available));
         ChatManager manager = ChatManager.getInstanceFor(connection);
         Chat chat = manager.chatWith(JidCreate.entityBareFrom("tester1@openxmpp"));
-        manager.addIncomingListener((entityBareJid, message, chat2) -> System.out.format("Recieving| JID: %s - MESSGAE: %s\n", entityBareJid.toString(), message.getBody()));
-        manager.addOutgoingListener((entityBareJid, messageBuilder, chat1) -> System.out.format("SENDING| JID: %s - MESSAGE: %s\n", entityBareJid.toString(), messageBuilder.getBody()));
+        manager.addIncomingListener((entityBareJid, message, chat2) -> System.out.format("\nRecieving| JID: %s - MESSGAE: %s", entityBareJid.toString(), message.getBody()));
+        manager.addOutgoingListener((entityBareJid, messageBuilder, chat1) -> System.out.format("\nSENDING| JID: %s - MESSAGE: %s", entityBareJid.toString(), messageBuilder.getBody()));
         Scanner scanline = new Scanner(System.in);
-        System.out.println("Messaging 'tester1' on spark");
+        System.out.println("Messaging 'tester1' on spark\n>>>  ");
         while(true){
             String line = scanline.nextLine();
             if(line.equals("exit")) {
                 connection.sendStanza(new Presence(Presence.Type.unavailable));
                 System.exit(0);
-            } else chat.send(line);
+            } else {
+                chat.send(line);
+            }
         }
     }
 }
