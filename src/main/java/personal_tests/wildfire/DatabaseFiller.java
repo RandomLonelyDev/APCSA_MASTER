@@ -13,11 +13,12 @@ import java.net.*;
 public class DatabaseFiller {
     public static void main(String[] args) {
         int successful = 0;
-        String php = "http://192.168.56.102/filldb.php";
-        for (int i = 0; i < 100; i++) {
+        final int amount = 25;
+        String php = "http://192.168.56.102/signup.php";
+        for (int i = 0; i < amount; i++) {
             user toAdd = new user("NETWORKED USER " + i, Gender.values()[MathExtended.randomInt(0,3)], Level.values()[MathExtended.randomInt(0,3)],MathExtended.randomInt(13,20));
             toAdd.setLoc(Location.values()[MathExtended.randomInt(0,5)]);
-            String urlstring = String.format("%s?json=%s&username=%s&password=1234", php, user.userToJson(toAdd),"NETWORKEDUSER" + i);
+            String urlstring = String.format("%s?json=%s&username=%s&password=1234", php, user.userToJson(toAdd),"Person" + i);
             try {
                 URL url = new URL(urlstring);
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
@@ -41,6 +42,6 @@ public class DatabaseFiller {
                 System.out.print("\nIOError\n");
             }
         }
-        System.out.format("\nRAN %d SUCCESSFUL QUERIES OUT OF %d TOTAL QUERIES\n",successful,100);
+        System.out.format("\nRAN %d SUCCESSFUL QUERIES OUT OF %d TOTAL QUERIES\n",successful,amount);
     }
 }
