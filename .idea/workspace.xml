@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="added a cmdline im for xmpp" />
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="added a cmdline im for xmpp">
+      <change afterPath="$PROJECT_DIR$/src/main/java/NonRunnableClasses/Prisim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NonRunnableClasses/Trapezoid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NonRunnableClasses/TrapezoidStateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ObjTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/RESTtest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/SmackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/SmackTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +63,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gedeon/Desktop/Locke's Files/AlarmClock v2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gedeon/Desktop/Locke's Files/APCSA/src/main/java&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -62,6 +72,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gedeon\Desktop\Locke's Files\APCSA\src\main\java\" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -123,7 +136,28 @@
       <workItem from="1670599123305" duration="1625000" />
       <workItem from="1670603158780" duration="1233000" />
       <workItem from="1670608161946" duration="122000" />
-      <workItem from="1670611960558" duration="2516000" />
+      <workItem from="1670611960558" duration="2741000" />
+      <workItem from="1670617094297" duration="79000" />
+      <workItem from="1670729866831" duration="18000" />
+      <workItem from="1670871836411" duration="1590000" />
+      <workItem from="1670893197173" duration="12000" />
+      <workItem from="1670957749179" duration="379000" />
+      <workItem from="1670958139358" duration="934000" />
+      <workItem from="1670995017892" duration="9000" />
+      <workItem from="1671044026082" duration="66000" />
+      <workItem from="1671081232962" duration="16000" />
+      <workItem from="1671113875077" duration="148000" />
+      <workItem from="1671118066535" duration="633000" />
+      <workItem from="1671132055997" duration="916000" />
+      <workItem from="1671167015523" duration="10000" />
+      <workItem from="1671197668624" duration="2698000" />
+      <workItem from="1671203945334" duration="691000" />
+      <workItem from="1671207908061" duration="83000" />
+      <workItem from="1671216752171" duration="1459000" />
+      <workItem from="1671414803118" duration="4000" />
+      <workItem from="1671464065805" duration="755000" />
+      <workItem from="1671467396386" duration="16000" />
+      <workItem from="1671555044969" duration="984000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Project =)">
       <created>1663007809665</created>
@@ -419,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670614386403</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="added a cmdline im for xmpp">
+      <created>1670614646638</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1670614646638</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
