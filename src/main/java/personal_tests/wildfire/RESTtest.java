@@ -11,6 +11,7 @@ import java.net.URL;
 
 public class RESTtest {
     public static void main(String[] args) {
-        RestApiClient client = new RestApiClient("openxmpp",9090,new AuthenticationToken("admin","12345"));
+        RestApiClient client = new RestApiClient("openxmpp",9090,new AuthenticationToken("bazre77fGnyVYTXo"));
+        client.getUser("admin").getUsername();
     }
 }

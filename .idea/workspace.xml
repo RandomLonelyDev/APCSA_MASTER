@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="added a cmdline im for xmpp">
-      <change afterPath="$PROJECT_DIR$/src/main/java/NonRunnableClasses/Prisim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NonRunnableClasses/Trapezoid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NonRunnableClasses/TrapezoidStateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObjTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/RESTtest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="running tests for REST client; added trapezoid project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/NonRunnableClasses/APLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NonRunnableClasses/SlopeException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/SmackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/SmackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ObjTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ObjTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/RESTtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/RESTtest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/SmackTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +63,11 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Gedeon/Desktop/Locke's Files/APCSA/src/main/java&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.28850573&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -157,7 +156,16 @@
       <workItem from="1671414803118" duration="4000" />
       <workItem from="1671464065805" duration="755000" />
       <workItem from="1671467396386" duration="16000" />
-      <workItem from="1671555044969" duration="984000" />
+      <workItem from="1671555044969" duration="1159000" />
+      <workItem from="1671557294696" duration="1989000" />
+      <workItem from="1671562597182" duration="2451000" />
+      <workItem from="1671603751726" duration="2230000" />
+      <workItem from="1671642133070" duration="124000" />
+      <workItem from="1672294958149" duration="2000" />
+      <workItem from="1672294971617" duration="29000" />
+      <workItem from="1672838320915" duration="461000" />
+      <workItem from="1672894433584" duration="13000" />
+      <workItem from="1672945402744" duration="1111000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Project =)">
       <created>1663007809665</created>
@@ -460,11 +468,23 @@
       <option name="project" value="LOCAL" />
       <updated>1670614646638</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="running tests for REST client; added trapezoid project">
+      <created>1671556165243</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1671556165243</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.eclipse.persistence:org.eclipse.persistence.core" />
+    <option featureType="dependencySupport" implementationName="java:javax.ws.rs:javax.ws.rs-api" />
+    <option featureType="dependencySupport" implementationName="java:javax.validation:validation-api" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -478,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Overflower and Program_Loops_1" />
     <MESSAGE value="Added and finished Array lib" />
     <MESSAGE value="Added to arraylib" />
     <MESSAGE value="Finished arraylib, added strigarraylib, added anf finished prgm guessing game 2" />
@@ -503,6 +522,21 @@
     <MESSAGE value="Finished AL Farm" />
     <MESSAGE value="made al farm codehs compliant" />
     <MESSAGE value="added a cmdline im for xmpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a cmdline im for xmpp" />
+    <MESSAGE value="running tests for REST client; added trapezoid project" />
+    <option name="LAST_COMMIT_MESSAGE" value="running tests for REST client; added trapezoid project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoSuchFieldError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

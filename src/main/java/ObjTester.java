@@ -1,18 +1,14 @@
-import NonRunnableClasses.Prisim;
-import NonRunnableClasses.Trapezoid;
-import NonRunnableClasses.TrapezoidStateException;
+import NonRunnableClasses.*;
 
 
 public class ObjTester {
-    public static void main(String[] args) throws TrapezoidStateException {
-        Trapezoid trap1 = new Trapezoid(4,10,5);
-        System.out.println("Trapezoid area: " + trap1.area());
-        Trapezoid.displayAreaFormula();
-        System.out.println(trap1);
-        Trapezoid trap2 = new Trapezoid(2,6,4);
-        System.out.println(trap1.equals(trap2)?"Trapezoids are equal.":"Trapezoids are not equal");
-        Prisim pris1 = new Prisim(4,10,5,8);
-        System.out.println("Prisim volume: " + pris1.volume());
-        System.out.println(pris1);
+    public static void main(String[] args) throws SlopeException {
+        APLine line1 = new APLine(5,4,-17);
+        double slope1 = line1.getSlope();
+        boolean onLine1 = line1.isOnLine(5,-2);
+
+        APLine line2 = new APLine(-25,40,30);
+        double slope2 = line2.getSlope();
+        boolean onLine2 = line2.isOnLine(5,-2);
     }
 }
