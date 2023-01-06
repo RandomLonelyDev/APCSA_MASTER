@@ -18,6 +18,8 @@
             <groupId>org.igniterealtime</groupId>
             <artifactId>rest-api-client</artifactId>
             <version>1.1.5</version>
+            <exclusions>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>javax.activation</groupId>
@@ -25,19 +27,14 @@
             <version>1.1.1</version>
         </dependency>
         <dependency>
-            <groupId>org.glassfish.jaxb</groupId>
-            <artifactId>jaxb-runtime</artifactId>
-            <version>4.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.glassfish.jaxb</groupId>
-            <artifactId>jaxb-core</artifactId>
-            <version>4.0.0</version>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api-osgi</artifactId>
+            <version>2.2.7</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
-            <artifactId>jersey-media-jaxb</artifactId>
-            <version>3.1.0</version>
+            <artifactId>jersey-media-moxy</artifactId>
+            <version>2.24.1</version>
         </dependency>
     </dependencies>
 
