@@ -4,10 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Added APLine and a REST induced mental breakdown">
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="REST nightmare is over.  fuck this shit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/HappyPersonality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/Modifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/PersonalitiesTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/Personality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/pain.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/SmackRetest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayList_Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Array_Programs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CourseGrades.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Loops_Challenge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NonRunnableClasses/APLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NonRunnableClasses/Prisim.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NonRunnableClasses/SlopeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NonRunnableClasses/StepTracker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NonRunnableClasses/Trapezoid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NonRunnableClasses/TrapezoidStateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ObjTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overflower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_AL_Farm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Change.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Flip_Or_Roll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Grades.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Guessing_Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Guessing_Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Guessing_Game_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Guessing_Game_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Loops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Loops_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Loops_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Maximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Maximum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Minimum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Minimum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Perfect_Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Perfect_Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Pets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Pets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Points.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Points.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Quadrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Quadrant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Quadratic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Quadratic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Sort_v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Sort_v2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Stars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Stars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Strings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Swap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Swap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program_TimeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_TimeConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/DatabaseFiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/DatabaseFiller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/RESTtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/RESTtest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/randgen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/randgen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +73,19 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6095a104-7c70-468c-a798-8bc321e0b8c2" />
+        <option name="url" value="https://github.com/RandomLonelyDev/APCSA_MASTER.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -47,32 +104,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Gedeon/Desktop/Locke's Files/APCSA/src/main/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.28850573",
-    "settings.editor.selected.configurable": "preferences.general",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gedeon/Desktop/Locke's Files/json-simple-4.0.1.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.28850573&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Gedeon\Desktop\Locke's Files\APCSA\src\main\java\" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gedeon\Desktop\Locke's Files\APCSA\src\main\java\personal_tests\alyx" />
+      <recent name="C:\Users\Gedeon\Desktop\Locke's Files\APCSA\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -167,6 +228,47 @@
       <workItem from="1672894433584" duration="13000" />
       <workItem from="1672945402744" duration="1737000" />
       <workItem from="1672971138032" duration="3993000" />
+      <workItem from="1672978116892" duration="45000" />
+      <workItem from="1672979194256" duration="30000" />
+      <workItem from="1673036273860" duration="2320000" />
+      <workItem from="1673038861764" duration="194000" />
+      <workItem from="1673067475917" duration="1013000" />
+      <workItem from="1673069232342" duration="144000" />
+      <workItem from="1673147894041" duration="7000" />
+      <workItem from="1673231555045" duration="1636000" />
+      <workItem from="1673236746617" duration="17000" />
+      <workItem from="1673445088555" duration="70000" />
+      <workItem from="1673445464618" duration="1293000" />
+      <workItem from="1673450243736" duration="1844000" />
+      <workItem from="1673454321397" duration="1680000" />
+      <workItem from="1673463135549" duration="26000" />
+      <workItem from="1673464074594" duration="451000" />
+      <workItem from="1673464860917" duration="371000" />
+      <workItem from="1673465425829" duration="545000" />
+      <workItem from="1673467364836" duration="465000" />
+      <workItem from="1673522092552" duration="56000" />
+      <workItem from="1673530598870" duration="1566000" />
+      <workItem from="1673532353431" duration="356000" />
+      <workItem from="1673532725913" duration="566000" />
+      <workItem from="1673536048484" duration="430000" />
+      <workItem from="1673536631458" duration="1539000" />
+      <workItem from="1673540772881" duration="171000" />
+      <workItem from="1673551391908" duration="5000" />
+      <workItem from="1673641497073" duration="257000" />
+      <workItem from="1673642926626" duration="3433000" />
+      <workItem from="1673664770300" duration="137000" />
+      <workItem from="1673665880835" duration="42000" />
+      <workItem from="1673665939514" duration="157000" />
+      <workItem from="1673876843697" duration="862000" />
+      <workItem from="1673929235675" duration="7000" />
+      <workItem from="1674068704641" duration="2016000" />
+      <workItem from="1674101490589" duration="112000" />
+      <workItem from="1674154391057" duration="75000" />
+      <workItem from="1674154510700" duration="1000" />
+      <workItem from="1674154697043" duration="1000" />
+      <workItem from="1674154746334" duration="13000" />
+      <workItem from="1674154898480" duration="2000" />
+      <workItem from="1674154937459" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Project =)">
       <created>1663007809665</created>
@@ -483,7 +585,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672946546080</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="REST nightmare is over.  fuck this shit">
+      <created>1672978158031</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1672978158031</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +615,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added to arraylib" />
     <MESSAGE value="Finished arraylib, added strigarraylib, added anf finished prgm guessing game 2" />
     <MESSAGE value="Added Program_Grades" />
     <MESSAGE value="Added Program_Stars" />
@@ -531,7 +639,8 @@
     <MESSAGE value="added a cmdline im for xmpp" />
     <MESSAGE value="running tests for REST client; added trapezoid project" />
     <MESSAGE value="Added APLine and a REST induced mental breakdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added APLine and a REST induced mental breakdown" />
+    <MESSAGE value="REST nightmare is over.  fuck this shit" />
+    <option name="LAST_COMMIT_MESSAGE" value="REST nightmare is over.  fuck this shit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

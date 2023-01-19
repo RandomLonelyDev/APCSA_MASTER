@@ -12,8 +12,9 @@ import java.net.URL;
 
 public class RESTtest {
     public static void main(String[] args) {
-        RestApiClient client = new RestApiClient("openxmpp",9090,new AuthenticationToken("bazre77fGnyVYTXo"), SupportedMediaType.JSON);
-        String us = client.getUser("admin").getUsername();
-        System.out.println(us);
+        /*RestApiClient client = new RestApiClient("openxmpp",9090,new AuthenticationToken("bazre77fGnyVYTXo"), SupportedMediaType.JSON);
+        for(UserEntity entity : client.getUsers().getUsers()) {
+            System.out.println(entity.getUsername());
+        }*/
     }
 }

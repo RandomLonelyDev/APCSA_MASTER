@@ -8,6 +8,7 @@
     <artifactId>APCSA_2</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
+        <!--REST-->
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
@@ -21,7 +22,7 @@
             <exclusions>
             </exclusions>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>javax.activation</groupId>
             <artifactId>activation</artifactId>
             <version>1.1.1</version>
@@ -30,12 +31,36 @@
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api-osgi</artifactId>
             <version>2.2.7</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-moxy</artifactId>
             <version>2.24.1</version>
         </dependency>
+        <!--REST-->
+        <!--SMACK-->
+        <dependency>
+            <groupId>org.igniterealtime.smack</groupId>
+            <artifactId>smack-tcp</artifactId>
+            <version>4.5.0-alpha1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.igniterealtime.smack</groupId>
+            <artifactId>smack-im</artifactId>
+            <version>4.5.0-alpha1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.igniterealtime.smack</groupId>
+            <artifactId>smack-extensions</artifactId>
+            <version>4.5.0-alpha1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.igniterealtime.smack</groupId>
+            <artifactId>smack-java8</artifactId>
+            <version>4.4.0</version>
+        </dependency>
+        <!--SMACK-->
+        <!--MISC-->
     </dependencies>
 
     <properties>
