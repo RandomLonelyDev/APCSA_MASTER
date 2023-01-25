@@ -4,54 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="REST nightmare is over.  fuck this shit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/HappyPersonality.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/Modifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/PersonalitiesTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/Personality.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/pain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/SmackRetest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Smack doesnt work.  Pains is caused.  Rafactorings.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TicketFRQ/Advance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TicketFRQ/StudentAdvance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TicketFRQ/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TicketFRQ/TicketBooth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TicketFRQ/TicketException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TicketFRQ/TicketTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TicketFRQ/Walkup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/StringDecoder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayList_Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Array_Programs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CourseGrades.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Loops_Challenge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NonRunnableClasses/APLine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NonRunnableClasses/Prisim.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NonRunnableClasses/SlopeException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NonRunnableClasses/StepTracker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NonRunnableClasses/Trapezoid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NonRunnableClasses/TrapezoidStateException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ObjTester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Overflower.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_AL_Farm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Change.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Flip_Or_Roll.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Grades.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Guessing_Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Guessing_Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Guessing_Game_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Guessing_Game_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Loops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Loops_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Loops_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Maximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Maximum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Minimum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Minimum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Perfect_Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Perfect_Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Pets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Pets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Points.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Points.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Quadrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Quadrant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Quadratic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Quadratic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Sort_v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Sort_v2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Stars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Stars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Strings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_Swap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_Swap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program_TimeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Program_TimeConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/Dictionary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/HappyPersonality.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/Modifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/PersonalitiesTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/Personality.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/Word.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/pain.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/cbc/Testing.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/DatabaseFiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/DatabaseFiller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/RESTtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/RESTtest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/randgen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/randgen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/RESTtest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/Wildfire_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/enums/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/enums/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/enums/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/enums/Level.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/enums/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/enums/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +74,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2EgAN3BvFrVco5GO57VTsXKC5sO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -106,6 +87,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
@@ -269,6 +251,26 @@
       <workItem from="1674154746334" duration="13000" />
       <workItem from="1674154898480" duration="2000" />
       <workItem from="1674154937459" duration="1000" />
+      <workItem from="1674155166153" duration="753000" />
+      <workItem from="1674156289578" duration="903000" />
+      <workItem from="1674165638034" duration="1200000" />
+      <workItem from="1674168709175" duration="140000" />
+      <workItem from="1674240681641" duration="2855000" />
+      <workItem from="1674268376016" duration="2490000" />
+      <workItem from="1674276228681" duration="843000" />
+      <workItem from="1674416123453" duration="1918000" />
+      <workItem from="1674418555194" duration="7000" />
+      <workItem from="1674433124824" duration="169000" />
+      <workItem from="1674478189884" duration="697000" />
+      <workItem from="1674479087530" duration="1366000" />
+      <workItem from="1674484215252" duration="1920000" />
+      <workItem from="1674487585168" duration="57000" />
+      <workItem from="1674492147804" duration="429000" />
+      <workItem from="1674500656479" duration="2023000" />
+      <workItem from="1674512956813" duration="511000" />
+      <workItem from="1674569090505" duration="444000" />
+      <workItem from="1674569915842" duration="3000" />
+      <workItem from="1674586867454" duration="850000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Project =)">
       <created>1663007809665</created>
@@ -592,7 +594,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672978158031</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Smack doesnt work.  Pains is caused.  Rafactorings.">
+      <created>1674155419102</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1674155419102</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,7 +624,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished arraylib, added strigarraylib, added anf finished prgm guessing game 2" />
     <MESSAGE value="Added Program_Grades" />
     <MESSAGE value="Added Program_Stars" />
     <MESSAGE value="Finished Program_Stars" />
@@ -640,7 +648,8 @@
     <MESSAGE value="running tests for REST client; added trapezoid project" />
     <MESSAGE value="Added APLine and a REST induced mental breakdown" />
     <MESSAGE value="REST nightmare is over.  fuck this shit" />
-    <option name="LAST_COMMIT_MESSAGE" value="REST nightmare is over.  fuck this shit" />
+    <MESSAGE value="Smack doesnt work.  Pains is caused.  Rafactorings." />
+    <option name="LAST_COMMIT_MESSAGE" value="Smack doesnt work.  Pains is caused.  Rafactorings." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
