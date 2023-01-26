@@ -1,5 +1,9 @@
 package personal_tests.wildfire;
 
+import personal_tests.wildfire.enums.Gender;
+import personal_tests.wildfire.enums.Level;
+import personal_tests.wildfire.enums.Location;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 

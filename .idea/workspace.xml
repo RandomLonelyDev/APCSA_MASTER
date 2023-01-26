@@ -4,32 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Smack doesnt work.  Pains is caused.  Rafactorings.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TicketFRQ/Advance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TicketFRQ/StudentAdvance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TicketFRQ/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TicketFRQ/TicketBooth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TicketFRQ/TicketException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TicketFRQ/TicketTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TicketFRQ/Walkup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/StringDecoder.java" afterDir="false" />
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="ticketfrq">
+      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/Abstractpets/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/Abstractpets/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/Abstractpets/Kennel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/Abstractpets/LoudDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/Abstractpets/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/Abstractpets/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/Dictionary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/HappyPersonality.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/Modifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/PersonalitiesTester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/Personality.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/Word.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/alyx/pain.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/cbc/Testing.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/DatabaseFiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/DatabaseFiller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/RESTtest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/Wildfire_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/enums/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/enums/Gender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/enums/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/enums/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/enums/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/enums/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -271,6 +255,9 @@
       <workItem from="1674569090505" duration="444000" />
       <workItem from="1674569915842" duration="3000" />
       <workItem from="1674586867454" duration="850000" />
+      <workItem from="1674673655278" duration="1753000" />
+      <workItem from="1674746864874" duration="150000" />
+      <workItem from="1674759132273" duration="1350000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Project =)">
       <created>1663007809665</created>
@@ -601,7 +588,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674155419102</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="ticketfrq">
+      <created>1674673687581</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1674673687581</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,7 +618,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Program_Grades" />
     <MESSAGE value="Added Program_Stars" />
     <MESSAGE value="Finished Program_Stars" />
     <MESSAGE value="Added some files to test search algorithm  TODO: Fix sort by age" />
@@ -649,7 +642,8 @@
     <MESSAGE value="Added APLine and a REST induced mental breakdown" />
     <MESSAGE value="REST nightmare is over.  fuck this shit" />
     <MESSAGE value="Smack doesnt work.  Pains is caused.  Rafactorings." />
-    <option name="LAST_COMMIT_MESSAGE" value="Smack doesnt work.  Pains is caused.  Rafactorings." />
+    <MESSAGE value="ticketfrq" />
+    <option name="LAST_COMMIT_MESSAGE" value="ticketfrq" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
