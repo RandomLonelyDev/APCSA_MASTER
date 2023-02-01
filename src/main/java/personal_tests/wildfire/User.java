@@ -6,11 +6,11 @@ import personal_tests.libs.*;
 import java.util.*;
 
 public class User {
-    private Gender gender, attraction;
-    private int age;
-    private Location location;
-    private Level interest;
-    private String username;
+    public Gender gender, attraction;
+    public int age;
+    public Location location;
+    public Level interest;
+    public String username;
     public static String userToJson(User in) {
         return String.format("{\"username\":\"%s\",\"gender\":\"%s\",\"age\":\"%s\",\"location\":\"%s\",\"attractedTo\":\"%s\",\"interest\":\"%s\"}", in.username, in.gender, in.age, in.location, in.attraction, in.interest);
     }
@@ -35,6 +35,8 @@ public class User {
 
     @Override
     public String toString() {
-        return username;
+        return String.format("Username: %s | Age: %s\n" +
+                "Gender: %s | Attraction: %s\n" +
+                "Location: %s | Interest Level: %s", username, age, gender, attraction, location, interest);
     }
 }

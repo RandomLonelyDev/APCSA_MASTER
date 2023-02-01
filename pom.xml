@@ -14,7 +14,6 @@
             <version>23.1.0</version>
             <scope>compile</scope>
         </dependency>
-        <!--REST
         <dependency>
             <groupId>org.igniterealtime</groupId>
             <artifactId>rest-api-client</artifactId>
@@ -37,8 +36,6 @@
             <artifactId>jersey-media-moxy</artifactId>
             <version>2.24.1</version>
         </dependency>
-        REST-->
-        <!--SMACK-->
         <dependency>
             <groupId>org.igniterealtime.smack</groupId>
             <artifactId>smack-tcp</artifactId>
@@ -59,9 +56,6 @@
             <artifactId>smack-java8</artifactId>
             <version>4.4.0</version>
         </dependency>
-        <!--SMACK-->
-        <!--MISC-->
-        <!--MISC-->
     </dependencies>
 
     <properties>

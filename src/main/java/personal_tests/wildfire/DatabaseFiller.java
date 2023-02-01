@@ -1,9 +1,14 @@
 package personal_tests.wildfire;
 
+import org.igniterealtime.restclient.RestApiClient;
+import org.igniterealtime.restclient.entity.AuthenticationToken;
+import org.igniterealtime.restclient.entity.UserEntity;
+import org.igniterealtime.restclient.enums.SupportedMediaType;
 import personal_tests.wildfire.enums.Gender;
 import personal_tests.wildfire.enums.Level;
 import personal_tests.wildfire.enums.Location;
 
+import javax.ws.rs.core.Response;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
@@ -13,6 +18,7 @@ public class DatabaseFiller {
     public static void main(String[] args) {
         int successful = 0;
         final int amount = 250;
+        RestApiClient client = new RestApiClient("http://openxmpp", 9090, new AuthenticationToken("asEUUY1aOMz8EiA6"), SupportedMediaType.JSON);
         for (int i = 0; i < amount; i++) {
             String un = "NETWORKED_USER_" + i;
             User toAdd = new User(un);
@@ -31,6 +37,7 @@ public class DatabaseFiller {
                     in.close();
                     if (response.toString().equals("DONE")) {
                         System.out.println("JSON INJECTION SUCCESSFUL.");
+                        Response r = client.createUser(new UserEntity(toAdd.username.toLowerCase(), toAdd.username.toLowerCase(), toAdd.username.toLowerCase() + "@example.com", "1234"));
                         successful++;
                     }
                 } else {
