@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
  **/
 public class CCA_v2 {
     public static void main(String[] args) {
-        final int users = 100000;
+        final int users = 100;
 
         //us
         User us = new User("Tester", 16, Gender.MALE, Gender.FEMALE, Location.MIDWEST, Level.LONGTERM);
@@ -55,6 +55,8 @@ public class CCA_v2 {
 
             //location (arbitrarily pulls value based on region config) TODO: Potentialy adjust values
             vals[3] = Region.getRegion(us.location).getValue(user.location);
+
+
 
             //translate data to new map with avg pos denoted
             userAverages.put(user, avgOf(vals));

@@ -20,7 +20,7 @@ public class DatabaseFiller {
         final int amount = 250;
         RestApiClient client = new RestApiClient("http://openxmpp", 9090, new AuthenticationToken("asEUUY1aOMz8EiA6"), SupportedMediaType.JSON);
         for (int i = 0; i < amount; i++) {
-            String un = "NETWORKED_USER_" + i;
+            String un = "test_user_" + i;
             User toAdd = new User(un);
             String urlstring = "http://userstorage/backend.php?op=0&un="+un+"&pw=1234&da="+ User.userToJson(toAdd);
             try {

@@ -4,30 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="refactorings">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/Table/CombinedTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/Table/SingleTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/Table/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/Table/TableTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TestResults/AnswerKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TestResults/AnswerSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TestResults/Scoreable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TestResults/Scorer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TestResults/StudentAnswerSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TestResults/TestResults.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/algorithm_opt/CCA_v2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/algorithm_opt/ERegion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/algorithm_opt/INTRegion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/algorithm_opt/MWRegion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/algorithm_opt/Region.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/algorithm_opt/SRegion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/algorithm_opt/WRegion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/BasicRest.java" afterDir="false" />
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="table program">
+      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/InjectMe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/algorithm_opt/CCA_v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/algorithm_opt/CCA_v2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/BasicRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/BasicRest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/DatabaseFiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/DatabaseFiller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,13 +276,9 @@
       <workItem from="1675262469720" duration="1659000" />
       <workItem from="1675270991233" duration="882000" />
       <workItem from="1675277582551" duration="74000" />
-    </task>
-    <task id="LOCAL-00002" summary="Fixed Project =)">
-      <created>1663011893582</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1663011893582</updated>
+      <workItem from="1675279109672" duration="278000" />
+      <workItem from="1675355811993" duration="165000" />
+      <workItem from="1675628512854" duration="969000" />
     </task>
     <task id="LOCAL-00003" summary="Added angleFromSides function to lib, improved sorting">
       <created>1663256807833</created>
@@ -638,7 +616,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674760664600</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="table program">
+      <created>1675279365385</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1675279365385</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -661,7 +646,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added some files to test search algorithm  TODO: Fix sort by age" />
     <MESSAGE value="i honestly dont know" />
     <MESSAGE value="added string.java" />
     <MESSAGE value="did some refactoring, upgraded algorithm, id'd problem as avg pos detection code, lines 101-109" />
@@ -686,7 +670,8 @@
     <MESSAGE value="ticketfrq" />
     <MESSAGE value="AbstractAnimals" />
     <MESSAGE value="refactorings" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactorings" />
+    <MESSAGE value="table program" />
+    <option name="LAST_COMMIT_MESSAGE" value="table program" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
