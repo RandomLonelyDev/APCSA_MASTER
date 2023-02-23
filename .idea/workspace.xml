@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="table program">
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/InjectMe.java" afterDir="false" />
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="some work on wildfire.  Beta coming out soon!!! contact me for invite">
+      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/Searching/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/kt_rest/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/pbis/getPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/FuckGoBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/GetVPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/clients/C1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/algorithm_opt/CCA_v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/algorithm_opt/CCA_v2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/BasicRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/BasicRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/DatabaseFiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/DatabaseFiller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/InjectMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/InjectMe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +31,7 @@
         <option value="Enum" />
         <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -278,14 +285,38 @@
       <workItem from="1675277582551" duration="74000" />
       <workItem from="1675279109672" duration="278000" />
       <workItem from="1675355811993" duration="165000" />
-      <workItem from="1675628512854" duration="969000" />
-    </task>
-    <task id="LOCAL-00003" summary="Added angleFromSides function to lib, improved sorting">
-      <created>1663256807833</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1663256807833</updated>
+      <workItem from="1675628512854" duration="1245000" />
+      <workItem from="1675631483645" duration="1723000" />
+      <workItem from="1675644027069" duration="1288000" />
+      <workItem from="1675647937374" duration="27000" />
+      <workItem from="1675652330052" duration="673000" />
+      <workItem from="1675654343700" duration="75000" />
+      <workItem from="1675876398057" duration="130000" />
+      <workItem from="1675877997987" duration="258000" />
+      <workItem from="1675961024230" duration="448000" />
+      <workItem from="1675966201954" duration="291000" />
+      <workItem from="1676000465352" duration="630000" />
+      <workItem from="1676033480406" duration="1317000" />
+      <workItem from="1676036534382" duration="1812000" />
+      <workItem from="1676154631419" duration="1547000" />
+      <workItem from="1676156206520" duration="1640000" />
+      <workItem from="1676160195525" duration="47000" />
+      <workItem from="1676161725653" duration="1628000" />
+      <workItem from="1676170891366" duration="71000" />
+      <workItem from="1676173154754" duration="951000" />
+      <workItem from="1676392033635" duration="186000" />
+      <workItem from="1676392727183" duration="1050000" />
+      <workItem from="1676396215178" duration="409000" />
+      <workItem from="1676396676609" duration="478000" />
+      <workItem from="1676400690429" duration="1666000" />
+      <workItem from="1676696164818" duration="30000" />
+      <workItem from="1676860603717" duration="42000" />
+      <workItem from="1677006172308" duration="2095000" />
+      <workItem from="1677009845744" duration="78000" />
+      <workItem from="1677092243738" duration="2483000" />
+      <workItem from="1677156171123" duration="296000" />
+      <workItem from="1677157411066" duration="272000" />
+      <workItem from="1677159485807" duration="336000" />
     </task>
     <task id="LOCAL-00004" summary="removed angleFromSides(), added string based fraction parser">
       <created>1663261662226</created>
@@ -623,7 +654,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675279365385</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="some work on wildfire.  Beta coming out soon!!! contact me for invite">
+      <created>1675629668238</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1675629668238</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -646,7 +684,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="i honestly dont know" />
     <MESSAGE value="added string.java" />
     <MESSAGE value="did some refactoring, upgraded algorithm, id'd problem as avg pos detection code, lines 101-109" />
     <MESSAGE value="ticket closed on algorithm, everything works now" />
@@ -671,7 +708,8 @@
     <MESSAGE value="AbstractAnimals" />
     <MESSAGE value="refactorings" />
     <MESSAGE value="table program" />
-    <option name="LAST_COMMIT_MESSAGE" value="table program" />
+    <MESSAGE value="some work on wildfire.  Beta coming out soon!!! contact me for invite" />
+    <option name="LAST_COMMIT_MESSAGE" value="some work on wildfire.  Beta coming out soon!!! contact me for invite" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -18,11 +18,11 @@ public class DatabaseFiller {
     public static void main(String[] args) {
         int successful = 0;
         final int amount = 250;
-        RestApiClient client = new RestApiClient("http://openxmpp", 9090, new AuthenticationToken("asEUUY1aOMz8EiA6"), SupportedMediaType.JSON);
+        RestApiClient client = new RestApiClient("23.254.201.235", 9090, new AuthenticationToken("CURUBHRjK7qJlNKB"), SupportedMediaType.JSON);
         for (int i = 0; i < amount; i++) {
             String un = "test_user_" + i;
             User toAdd = new User(un);
-            String urlstring = "http://userstorage/backend.php?op=0&un="+un+"&pw=1234&da="+ User.userToJson(toAdd);
+            String urlstring = "http://app.crushconnect.us/backend.php?op=0&un="+un+"&pw=1234&da="+ User.userToJson(toAdd);
             try {
                 URL url = new URL(urlstring);
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();

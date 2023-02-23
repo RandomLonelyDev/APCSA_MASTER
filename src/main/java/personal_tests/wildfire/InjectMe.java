@@ -14,10 +14,10 @@ import java.net.URL;
 
 public class InjectMe {
     public static void main(String[] args) throws IOException {
-        //RestApiClient client = new RestApiClient("http://openxmpp", 9090, new AuthenticationToken("asEUUY1aOMz8EiA6"), SupportedMediaType.JSON);
+        RestApiClient client = new RestApiClient("23.254.201.235", 9090, new AuthenticationToken("CURUBHRjK7qJlNKB"), SupportedMediaType.JSON);
         User me = new User("tester", 16, Gender.MALE, Gender.FEMALE, Location.MIDWEST, Level.LONGTERM);
-        //client.createUser(new UserEntity(me.username, me.username, me.username + "@example.com", "12345"));
-        URL url = new URL("http://userstorage/backend.php?op=0&un=" + me.username + "&pw=12345&da=" + User.userToJson(me));
+        client.createUser(new UserEntity(me.username, me.username, me.username + "@example.com", "12345"));
+        URL url = new URL("http://app.crushconnect.us/backend.php?op=0&un=" + me.username + "&pw=12345&da=" + User.userToJson(me));
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
         System.out.println(conn.getResponseCode());
     }
