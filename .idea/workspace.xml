@@ -4,18 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="some work on wildfire.  Beta coming out soon!!! contact me for invite">
-      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/Searching/Tester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/kt_rest/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/pbis/getPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/FuckGoBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/GetVPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/clients/C1.java" afterDir="false" />
+    <list default="true" id="208958ad-74d6-49c4-9518-b39d8051c413" name="Changes" comment="Examples of linear and binary search, and insertion and selection sorts.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TwoDArrays/2DMethods.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/APCSA/TwoDArrays/TDArrayMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/BackendTester.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/APCSA/Searching/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APCSA/Searching/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/kt_rest/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/kt_rest/Coroutines.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/DatabaseFiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/DatabaseFiller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/InjectMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/InjectMe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/GetVPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/InjectMe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/StringDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personal_tests/wildfire/clients/C1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +35,8 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Script" />
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -53,6 +58,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/personal_tests/wildfire/DatabaseFiller.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -64,7 +72,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2EgAN3BvFrVco5GO57VTsXKC5sO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -85,16 +93,17 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Gedeon/Desktop/Wildfire/migrated db's/users.sql&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.28850573&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -316,14 +325,45 @@
       <workItem from="1677092243738" duration="2483000" />
       <workItem from="1677156171123" duration="296000" />
       <workItem from="1677157411066" duration="272000" />
-      <workItem from="1677159485807" duration="336000" />
-    </task>
-    <task id="LOCAL-00004" summary="removed angleFromSides(), added string based fraction parser">
-      <created>1663261662226</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1663261662226</updated>
+      <workItem from="1677159485807" duration="616000" />
+      <workItem from="1677252511039" duration="102000" />
+      <workItem from="1677264761979" duration="465000" />
+      <workItem from="1677523981881" duration="2314000" />
+      <workItem from="1677609781693" duration="410000" />
+      <workItem from="1677639067868" duration="524000" />
+      <workItem from="1677697381336" duration="249000" />
+      <workItem from="1677697890059" duration="820000" />
+      <workItem from="1677766661187" duration="231000" />
+      <workItem from="1677783587113" duration="216000" />
+      <workItem from="1677784530730" duration="1395000" />
+      <workItem from="1677848109533" duration="182000" />
+      <workItem from="1677898379135" duration="3065000" />
+      <workItem from="1677905932382" duration="23000" />
+      <workItem from="1678114532094" duration="188000" />
+      <workItem from="1678115879989" duration="1418000" />
+      <workItem from="1678117660852" duration="67000" />
+      <workItem from="1678119991699" duration="316000" />
+      <workItem from="1678120318272" duration="828000" />
+      <workItem from="1678122001372" duration="2000" />
+      <workItem from="1678122166115" duration="1741000" />
+      <workItem from="1678128704979" duration="1943000" />
+      <workItem from="1678162467679" duration="68000" />
+      <workItem from="1678194398581" duration="664000" />
+      <workItem from="1678196536232" duration="60000" />
+      <workItem from="1678196834224" duration="76000" />
+      <workItem from="1678197452549" duration="327000" />
+      <workItem from="1678206712021" duration="48000" />
+      <workItem from="1678216288901" duration="300000" />
+      <workItem from="1678302910809" duration="1471000" />
+      <workItem from="1678375372763" duration="37000" />
+      <workItem from="1678375477959" duration="32000" />
+      <workItem from="1678387986599" duration="606000" />
+      <workItem from="1678390162909" duration="609000" />
+      <workItem from="1678475165839" duration="1368000" />
+      <workItem from="1678509485247" duration="165000" />
+      <workItem from="1678590043500" duration="1507000" />
+      <workItem from="1678591604227" duration="4017000" />
+      <workItem from="1678601580558" duration="2201000" />
     </task>
     <task id="LOCAL-00005" summary="removed angleFromSides(), added string based fraction parser">
       <created>1663261704032</created>
@@ -661,7 +701,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675629668238</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Examples of linear and binary search, and insertion and selection sorts.">
+      <created>1677160085416</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1677160085416</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -684,7 +731,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added string.java" />
     <MESSAGE value="did some refactoring, upgraded algorithm, id'd problem as avg pos detection code, lines 101-109" />
     <MESSAGE value="ticket closed on algorithm, everything works now" />
     <MESSAGE value="we do a little refactoring" />
@@ -709,7 +755,8 @@
     <MESSAGE value="refactorings" />
     <MESSAGE value="table program" />
     <MESSAGE value="some work on wildfire.  Beta coming out soon!!! contact me for invite" />
-    <option name="LAST_COMMIT_MESSAGE" value="some work on wildfire.  Beta coming out soon!!! contact me for invite" />
+    <MESSAGE value="Examples of linear and binary search, and insertion and selection sorts." />
+    <option name="LAST_COMMIT_MESSAGE" value="Examples of linear and binary search, and insertion and selection sorts." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
